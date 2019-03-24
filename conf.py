@@ -25,14 +25,14 @@ author = 'Brad Miller'
 copyright = '2019, ' + author
 
 # Change this to your blog root URL (required for RSS feed)
-website = 'http://blog.runestone.com/'
+website = 'http://www.runestoneinteractive.com/'
 
 # **************************************************************
 # More tweaks you can do
 # **************************************************************
 
 # Add your Disqus shortname to enable comments powered by Disqus
-disqus_shortname = None
+disqus_shortname = 'runestoneblog'
 
 # Change your favicon (new favicon goes in _static directory)
 html_favicon = '_static/tinkerer.ico'
@@ -80,13 +80,14 @@ html_static_path = ['_static', tinkerer.paths.static]
 html_theme_path = ['_themes', tinkerer.paths.themes]
 
 # Add file patterns to exclude from build
-exclude_patterns = ['drafts/*', '_templates/*']
+exclude_patterns = ['drafts/*', '_templates/*', 'README.rst']
 
 # Add templates to be rendered in sidebar here
 html_sidebars = {
     '**': ['recent.html',
     'runestone_links.html',
-    'searchbox.html']
+    'searchbox.html',
+    'categories.html']
 }
 
 # Add an index to the HTML documents.
