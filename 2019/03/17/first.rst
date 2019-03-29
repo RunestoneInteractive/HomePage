@@ -1,5 +1,5 @@
-Runestone some History and a Roadmap
-====================================
+Runestone History and a Roadmap
+===============================
 
 Runestone Interactive was created in 2011 during Brad's sabbatical.  I should have been working on a new edition for two paper textbooks, but I had the worst kind of writers block.  I just couldn't stand the idea of a paper textbook for computer science in 2011.  Textbooks should let you run the examples! Even better textbooks should encourage you to edit the examples and play around with them.  When a google search for python in the browser turned up the `skulpt project <http://skulpt.org>`_ I knew I was onto something.
 
@@ -11,7 +11,7 @@ Our library now lists 18 books!  But there are probably at least another 18 that
 
 The tagline "democratizing textbooks for the 21st century", is really inspired by a class visit with Guy Kawasaki in a class I taught during January Term when I would take 12 students to Silicon Valley to visit with entrepreneurs, at all kinds of companies.  It is, in Guy's terms, a mantra.  It means that textbooks should be free!  You should not be excluded from learning about CS because you cannot afford $200 for a textbook!  If Runestone can play a role in disrupting textbook publishing that would be awesome.  I'm hoping that Runestone can serve 2 million students a day in my lifetime!  It also means that textbooks should be interactive, intelligent, living documents.
 
-In 2018, I decided to leave my dream job at Luther College to focus all of my energy on a new dream job, Runestone Interactive.  I was growing increasingly frustrated that there were not enough hours in the day to teach classes, attend committee meetings, grade homework, prep lectures, and work on Runestone.  This turned out to be a great leap of faith, as not long after I made the decision I was contacted by a some team members in Google's EngEDU organization and that wanted to use Runestone as part of their Applied Computing Series of courses.  The goals of Runestone and the goals of the AC team could not be more aligned.  I work as a consultant to Google, and have time to continue to develop Runestone.
+In 2018, I decided to leave my dream job at Luther College to focus all of my energy on a new dream job, Runestone Interactive.  I was growing increasingly frustrated that there were not enough hours in the day to teach classes, attend committee meetings, grade homework, prep lectures, and work on Runestone.  This turned out to be a great leap of faith, as not long after I made the decision I was contacted by a some team members in Google's EngEDU organization that wanted to use Runestone as part of their `Applied Computing Series <https://edu.google.com/computer-science/applied-computing-series/intensive.html>`_ of courses.  The goals of Runestone and the goals of the AC team could not be more aligned.  Runestone is also used as a platform for teaching courses by `LaunchCode <https://www.launchcode.org/>`_.  I get to work with a bunch of really smart Googlers, and have time to continue to develop Runestone.
 
 A Roadmap for the Future
 ------------------------

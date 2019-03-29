@@ -16,7 +16,7 @@ project = 'Runestone Interactive'
 tagline = 'Democratizing textbooks for the 21st century'
 
 # Change this to the description of your blog
-description = 'This is an awesome blog'
+description = 'Interactive Textbooks for Computer Science, Data Science and more'
 
 # Change this to your name
 author = 'Brad Miller'
