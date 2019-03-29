@@ -9,4 +9,5 @@ Sitemap
    pages/faq
    pages/library
    pages/about
+   pages/support
 
