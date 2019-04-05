@@ -62,6 +62,10 @@ You invite them, either in class or with an email.  Tell them to register at int
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
 
+When I play a video I don't get any sound
+-----------------------------------------
+
+We are in the process of moving all videos to be hosted on Youtube. In the meantime this is largely limited to Firefox, so as a workaround you can get the sound in a different browser.
 
 Can I build my own course and host it here?
 -------------------------------------------
