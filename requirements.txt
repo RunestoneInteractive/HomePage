@@ -1,0 +1,2 @@
+Sphinx==1.7.1
+Tinkerer==1.7.1
