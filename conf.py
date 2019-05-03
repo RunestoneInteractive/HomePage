@@ -87,6 +87,7 @@ html_sidebars = {
     '**': ['recent.html',
     'runestone_links.html',
     'searchbox.html',
+    'support.html',
     'categories.html']
 }
 

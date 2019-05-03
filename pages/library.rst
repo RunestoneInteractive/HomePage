@@ -46,6 +46,10 @@ format by Franklin Beedle and Associates
 `Problem Solving with Algorithms and Data
 Structures <https://runestone.academy/runestone/static/pythonds/index.html>`__
 
+Also available in Spanish!
+
+`Solución de problemas con algoritmos y estructuras de datos usando Python <https://runestone.academy/runestone/static/pythoned/index.html>`__
+
 
 
 Problem Solving with Algorithms and Data Structures using C++
@@ -117,7 +121,7 @@ Review <https://runestone.academy/runestone/static/JavaReview/index.html>`_
 CS Principles: Big Ideas in Programming
 ---------------------------------------
 
-Written by Mark Guzidial and designed for Teachers! This book
+Written by Mark Guzidial and designed for Students! This book
 supports the new AP CS Principles curriculum
 
 `Student Computer Science
@@ -129,8 +133,8 @@ CS Principles: Big Ideas in Programming for Teachers
 Written by Mark Guzidial and designed for Teachers! This book
 supports the new AP CS Principles curriculum
 
-`Student Computer Science
-Principles <https://runestone.academy/runestone/static/TeacherCSP/index.html>`__
+`Teacher Computer Science
+Principles on Runestone Academy <https://runestone.academy/runestone/static/TeacherCSP/index.html>`__  -- **Note** Registration is required to see this book.  Register for TeacherCSP.
 
 
 Course Reader - CS160
