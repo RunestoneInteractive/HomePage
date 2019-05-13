@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2019/05/13/runestone_intro
    2019/05/05/docker
    2019/04/29/patreon
    2019/04/22/new_feature_friday
