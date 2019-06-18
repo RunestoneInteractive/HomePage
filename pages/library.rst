@@ -1,8 +1,6 @@
 Library
 =======
 
-.. contents:: Books written with Runestone
-
 The Runestone Interactive tools create compelling interactive
 learning resources used by hundreds of Colleges, Universities, and
 High Schools around the world. Here is a list of the titles we
@@ -18,7 +16,7 @@ Based on the original open source book. Learn Python, try
 examples, answer questions, interactively, right in the book!
 
 `How to Think Like a Computer
-Scientist <https://runestone.academy/runestone/static/thinkcspy/index.html>`__
+Scientist <https://runestone.academy/runestone/static/thinkcspy/index.html>`_
 
 Foundations of Python Programming
 ---------------------------------
@@ -32,7 +30,7 @@ CS for All
 Written by Christine Alvarado, Zachary Dodds, Geoff Kuenning,
 and Ran Libeskind-Hadas at Harvey Mudd College
 
-`CS for All <http://www.cs.hmc.edu/csforall>`__
+`CS for All <http://www.cs.hmc.edu/csforall>`_
 
 Data Structures and Algorithms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -44,11 +42,11 @@ Written by Brad Miller and David Ranum. Published in Paper
 format by Franklin Beedle and Associates
 
 `Problem Solving with Algorithms and Data
-Structures <https://runestone.academy/runestone/static/pythonds/index.html>`__
+Structures <https://runestone.academy/runestone/static/pythonds/index.html>`_
 
 Also available in Spanish!
 
-`Solución de problemas con algoritmos y estructuras de datos usando Python <https://runestone.academy/runestone/static/pythoned/index.html>`__
+`Solución de problemas con algoritmos y estructuras de datos usando Python <https://runestone.academy/runestone/static/pythoned/index.html>`_
 
 
 
@@ -79,14 +77,14 @@ focuses on what is still one of the main programming tasks,
 "transforming data." Based on ClojureScript it takes a
 functional approach.
 
-`Transforming Data with ClojureScript <http://langintro.com/cljsbook/index.html>`__
+`Transforming Data with ClojureScript <http://langintro.com/cljsbook/index.html>`_
 
 Regular Expressions in Python
 -----------------------------
 
 By J David Eisenberg
 
-`Regular Expressions in Python <http://evc-cit.info/comsc020/python-regex-tutorial/#>`__
+`Regular Expressions in Python <http://evc-cit.info/comsc020/python-regex-tutorial/#>`_
 
 Computer Graphics
 ~~~~~~~~~~~~~~~~~
@@ -104,7 +102,7 @@ composes the complex overall system. The study of each
 sub-system starts from basic principles and tries to avoid any
 assumptions about what the student knows or does not know.
 
-`Learn WebGL <http://learnwebgl.brown37.net>`__
+`Learn WebGL <http://learnwebgl.brown37.net>`_
 
 High School AP Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,7 +123,7 @@ Written by Mark Guzidial and designed for Students! This book
 supports the new AP CS Principles curriculum
 
 `Student Computer Science
-Principles <https://runestone.academy/runestone/static/StudentCSP/index.html>`__
+Principles <https://runestone.academy/runestone/static/StudentCSP/index.html>`_
 
 CS Principles: Big Ideas in Programming for Teachers
 ----------------------------------------------------
@@ -134,7 +132,7 @@ Written by Mark Guzidial and designed for Teachers! This book
 supports the new AP CS Principles curriculum
 
 `Teacher Computer Science
-Principles on Runestone Academy <https://runestone.academy/runestone/static/TeacherCSP/index.html>`__  -- **Note** Registration is required to see this book.  Register for TeacherCSP.
+Principles on Runestone Academy <https://runestone.academy/runestone/static/TeacherCSP/index.html>`_  -- **Note** Registration is required to see this book.  Register for TeacherCSP.
 
 
 Course Reader - CS160
@@ -144,7 +142,7 @@ Written by Andrew Scholer, "A collection I put together with
 Runestone for my Intro to CS course. It is a creative commons
 licensed set of materials I gathered from other open sources
 and bundled into a single work." `CS160 Course
-Reader <http://computerscience.chemeketa.edu/cs160Reader/index.html>`__
+Reader <http://computerscience.chemeketa.edu/cs160Reader/index.html>`_
 
 Web Programming
 ~~~~~~~~~~~~~~~
@@ -155,7 +153,7 @@ Fundamentals of Web Programming
 Written by Brad Miller, this book is designed for a seven week
 course I teach to majors and non majors. It introduces HTML,
 CSS, and a bit of Javascript. `Fundamentals of Web
-Programming <https://runestone.academy/runestone/static/webfundamentals/index.html>`__
+Programming <https://runestone.academy/runestone/static/webfundamentals/index.html>`_
 
 Javascript for Python Programmers
 ---------------------------------
@@ -171,7 +169,7 @@ Java For Python Programmers
 
 This short book helps with the transition from Python to Java
 
-`Java 4 Python <https://runestone.academy/runestone/static/java4python/index.html>`__
+`Java 4 Python <https://runestone.academy/runestone/static/java4python/index.html>`_
 
 C++ for Python Programmers
 --------------------------
@@ -193,7 +191,7 @@ introductory material on programming constructs used in the
 lessons. The idea is to focus on fun problems in lots of areas,
 the goal is to turn this into a fun CS1 textbook.
 
-`Everyday Python <http://everydaypython.org>`__
+`Everyday Python <http://everydaypython.org>`_
 
 
 
