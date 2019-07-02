@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2019/07/01/midsummer
    2019/06/17/sql
    2019/05/13/runestone_intro
    2019/05/05/docker
