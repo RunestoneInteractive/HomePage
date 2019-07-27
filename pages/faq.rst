@@ -31,6 +31,11 @@ The Runestone project was originally conceived as only parts 2, and 4.  But it b
 
 Currently number 4 is being used by over 25,000 students a day in over 600 universities, colleges, and high schools. This number is growing by around 2,000 students each semester.
 
+I seem to have a student account, how can I get/create an instructor account?
+--------------------------------------------------------------------------------
+
+The short answer is that you become an instructor by creating a course.  You are the instructor for that course only and any other course you create.  But not for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
+
 What Runestone is Not?
 ----------------------
 

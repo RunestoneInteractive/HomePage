@@ -54,6 +54,10 @@ Inside Baseball
 
 2. New dynamic architecture for more dynamic features in the future.  In addition, the new dynamic architecture changes how we check that login/logout is handled.  This should help with making sure that students are always in the course they should be in, rather than some random course they found with a Google search.
 
+3. http://interactivepython.org is gone.  Well its not really gone, it has a permanent redirect to https://runestone.academy.  None of the old classes on interactivepython.org made the move.  Registrations have been disabled for a year. This move has been coming for two years, so hopefully it doesn't surprise anyone.
+
+4. Both RunestoneComponents and RunestoneServer are running Python3.  We had to keep Python2.7 a lot longer than I would have liked due to the web2py framework, but happily web2py now fully supports Python 3.7.  I look forward to simplifying and dropping support for 2.7 once all this new stuff is live on academy.
+
 Caveats
 -------
 
