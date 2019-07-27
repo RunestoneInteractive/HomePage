@@ -19,4 +19,5 @@ Sitemap
    pages/library
    pages/about
    pages/support
+   pages/downloads
 
