@@ -94,14 +94,14 @@ How do I build my own course?
    3.  On this page you will see the links for listing and grading assignments and lots of other things.  Right now those won't show you anything, so move along to the `Create a Custom Course <https://runestone.academy/runestone/designer>`_ link.
    4. Fill in the Project Name.  This should be a short one word description of your course like `luther150a.`  When your students register for the course this is the name they will have to type in to join your particular course.   No Spaces allwed in this name.
    5. The description can say a bit more about the course.
-   6. The big choice is whether to use a ready-made book or to pick and choose sections from the repository of sections.  Most people just choose one of the pre-made books.
+   6. Choose one of the ready-made books for your course.
    7.  Its probably just fine to leave this at today's date.  If you set it into the future and then do some experimenting with assignments and quizzes today you won't be able to see your results because you are only shown things that come after the start date.
 
 
 Is this site reliable enough to use in class?
 ---------------------------------------------
 
-Yes.  All of the important parts of the book are served as static pages.  Everything else that happens either uses Javascript right in the browser, or background ajax calls that won't have any impact on the primary text.  We host this on a very reliable service and we monitor our traffic constantly. We use a content distribution network for increased scalability and reliability.  In the Spring of 2016 we were serving over 20,000 students a day with almost zero downtime.
+Yes. We host this on a very reliable service and we monitor our traffic constantly. We use a content distribution network for increased scalability and reliability.  In the Spring of 2019 we were serving over 25,000 students a day with no downtime.
 
 Why did you change domain names?
 --------------------------------
@@ -115,12 +115,7 @@ You can either just change your course start date, see above, or you can rebuild
 
 All the data from past terms is still saved in the database so students that want to go back and look at things from their past terms will be able to access their information, but nothing prior to your latest course start date will show up in any of your reports.
 
-Unfortunately the assignment interface is not quite as easy.  If you really must re-use your course instead of creating  a new one for this year, send me an email and I can mark last years students as inactive.  Otherwise the grading interface will get cluttered with both current and past students.  But seriously, the whole idea here was that you can so easily create a new course each time you teach it, and then your past students can always get back to their book and assignments.
-
-How do I update my course to get the latest bug fixes?
-------------------------------------------------------
-
-Here is the link to `rebuild your course <https://runestone.academy/runestone/admin/rebuildcourse>`_.   We recommend that you do this every so often.  The instructors page will show you the current version of our software used to build the thinkcspy and pythonds books.  It will also show you the version for your own course.   If you course is out of date you will also get a flash message in the upper right corner of your browser window.
+The instructor interface allows you to copy all your assignments from a past course into your current course, so re-using an old assignment is pretty simple.  It even re-calculates a due date for your based on the delta between your old term start date and when you had the assignment due that term.
 
 
 I was just experimenting and I want to delete my course
@@ -131,7 +126,7 @@ Once you are done experimenting please delete your course from the instructors i
 What if I want to add a new section or chapter?
 -----------------------------------------------
 
-That would be awesome.  This whole book is open source.  You can grab a copy of the source on `github <http://github.com/bnmnetp/runestone>`_.  The source for thinkcspy and pythonds is in the source folder and there is a subfolder for each chapter.  If you want to make a whole new chapter then create a folder and follow the conventions of one of the other chapters.  There is full documentation for the markup language at `docs.runestoneinteractive.org <http://docs.runestoneinteractive.org>`_.  When you are finished make a pull request and we'll review your material and incorporate them into the book.
+That would be awesome.  This whole book is open source.  You can grab a copy of the source on `github <https://github.com/RunestoneInteractive>`_.  The source for thinkcspy and pythonds is in the source folder and there is a subfolder for each chapter.  If you want to make a whole new chapter then create a folder and follow the conventions of one of the other chapters.  There is full documentation for the markup language at `docs.runestoneinteractive.org <http://docs.runestoneinteractive.org>`_.  When you are finished make a pull request and we'll review your material and incorporate them into the book.
 
 What if I want to add my own exercises?
 ---------------------------------------
@@ -149,7 +144,7 @@ Ok, this is a question that has the potential to start nasty religious wars.  Th
 I think there is a bug in your book what should I do?
 -----------------------------------------------------
 
-Please let us know!  You can file bug reports on our `github issues page <http://github.com/bnmnetp/runestone/issues>`_.  Thanks!  If you don't have a github account then you can tweet me at iRunestone   or visit our `google.groups discussion <https://groups.google.com/forum/#!forum/runestoneinteractive>`_
+Please let us know!  You can file bug reports on our `github issues page <http://github.com/RunestoneInteractive/RunestoneComponents/issues>`_.  Thanks!  If you don't have a github account then you can tweet me at iRunestone   or visit our `google.groups discussion <https://groups.google.com/forum/#!forum/runestoneinteractive>`_
 
 
 I have a question that is not covered here!
