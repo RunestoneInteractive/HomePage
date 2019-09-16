@@ -58,12 +58,12 @@ We also have a nice new `Instructor Guide <https://runestone.academy/runestone/s
 Help!  I cannot log in.  Every time I try to log in, I have to reset my password!
 ---------------------------------------------------------------------------------
 
-In 99.99% of the cases, this is because you are confusing your email address with the username you were forced to enter when you register.  So, go through the password reset process and get yourself logged in again.  Then look in the upper right hand corner of the page and pull down the user menu (the one that looks like a person.)  Your username will be displayed at the top of that menu.  Yes, I get that most places just have you use your email address now, but my web development framework is old school.  This will change in the next major upgrade of the server (hopefully summer 2016)
+In 99.99% of the cases, this is because you are confusing your email address with the username you were forced to enter when you register.  So, go through the password reset process and get yourself logged in again.  Then look in the upper right hand corner of the page and pull down the user menu (the one that looks like a person.)  Your username will be displayed at the top of that menu.  We use username instead of email address to protect the privacy of our users.
 
 How do I add students to my course?
 -----------------------------------
 
-You invite them, either in class or with an email.  Tell them to register at interactivepython.org and then give them the name of the course you created.  During the regsitration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
+You invite them, either in class or with an email.  Tell them to register at runestone.academy and then give them the name of the course you created.  During the registration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
 
@@ -84,20 +84,6 @@ The best approach is to use our system to build your own textbook.  This gives y
 * at a glance information about the multiple choice and fill in the blank questions embedded in the text.
 
 
-How do I build my own course?
------------------------------
-
-.. admonition::  Steps to Build
-
-   1.  First you should register yourself as a user on this site.  When you register you must pick a course.  Just use thinkcspy or pythonds, it doesn't matter as that will change when you build your own.
-   2.  Then go to the `instructors page <https://runestone.academy/runestone/admin/index>`_.
-   3.  On this page you will see the links for listing and grading assignments and lots of other things.  Right now those won't show you anything, so move along to the `Create a Custom Course <https://runestone.academy/runestone/designer>`_ link.
-   4. Fill in the Project Name.  This should be a short one word description of your course like `luther150a.`  When your students register for the course this is the name they will have to type in to join your particular course.   No Spaces allwed in this name.
-   5. The description can say a bit more about the course.
-   6. The big choice is whether to use a ready-made book or to pick and choose sections from the repository of sections.  Most people just choose one of the pre-made books.
-   7.  Its probably just fine to leave this at today's date.  If you set it into the future and then do some experimenting with assignments and quizzes today you won't be able to see your results because you are only shown things that come after the start date.
-
-
 Is this site reliable enough to use in class?
 ---------------------------------------------
 
@@ -111,11 +97,11 @@ The old domain name, "interactivepython.org" was becoming quite inacurate. Altho
 I want to reuse my course from last year, what should I do?
 -----------------------------------------------------------
 
-You can either just change your course start date, see above, or you can rebuild your course.   We recommend that you rebuild your course every so often to get the latest bug fixes etc.  Here is the link to `rebuild your course <https://runestone.academy/runestone/admin/rebuildcourse>`_.
+You should create a new course and then from the instructor page in the new course copy the assignments from your old course.  The assignment dates will be adjusted based on the class start date.
+
+.. copyassign::
 
 All the data from past terms is still saved in the database so students that want to go back and look at things from their past terms will be able to access their information, but nothing prior to your latest course start date will show up in any of your reports.
-
-Unfortunately the assignment interface is not quite as easy.  If you really must re-use your course instead of creating  a new one for this year, send me an email and I can mark last years students as inactive.  Otherwise the grading interface will get cluttered with both current and past students.  But seriously, the whole idea here was that you can so easily create a new course each time you teach it, and then your past students can always get back to their book and assignments.
 
 How do I update my course to get the latest bug fixes?
 ------------------------------------------------------
