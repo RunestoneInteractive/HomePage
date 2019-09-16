@@ -100,6 +100,7 @@ I want to reuse my course from last year, what should I do?
 You should create a new course and then from the instructor page in the new course copy the assignments from your old course.  The assignment dates will be adjusted based on the class start date.
 
 .. image:: copyassign.png
+    :width: 600
 
 All the data from past terms is still saved in the database so students that want to go back and look at things from their past terms will be able to access their information, but nothing prior to your latest course start date will show up in any of your reports.
 
