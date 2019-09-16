@@ -107,7 +107,7 @@ All the data from past terms is still saved in the database so students that wan
 How do I update my course to get the latest bug fixes?
 ------------------------------------------------------
 
-You do not need to do anything.  Bug fixes are automatically updated weekly.
+Nothing.  Bug fixes are automatically updated weekly.
 
 
 I was just experimenting and I want to delete my course
