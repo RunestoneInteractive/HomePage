@@ -31,10 +31,20 @@ The Runestone project was originally conceived as only parts 2, and 4.  But it b
 
 Currently number 4 is being used by over 25,000 students a day in over 600 universities, colleges, and high schools. This number is growing by around 2,000 students each semester.
 
-I seem to have a student account, how can I get/create an instructor account?
---------------------------------------------------------------------------------
+Why Can't I access the Instructor Page?
+---------------------------------------
 
-The short answer is that you become an instructor by creating a course.  You are the instructor for that course only and any other course you create.  But not for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
+How do I become an instructor?
+------------------------------
+
+* I seem to have a student account, how can I get/create an instructor account?
+
+* I created an instructor account but...
+
+First lets clear up a couple of misconcptions.  There is no way for me to know, just by your email address that you are an instructor.  You could be anyone.  So, there is no such thing as an instructor account.
+
+You become an instructor by creating a course. This gives you the privileges associated with being an instructor but ONLY for that course and any other course(s) you create.  You are not an instructor for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
+
 
 What Runestone is Not?
 ----------------------
@@ -47,8 +57,8 @@ The Rebellion continues, in the Google group I set up for instructors, I don't t
 
 LTI will save me.  Its almost there, and its almost ready.  The best solution in my opinion is a good integration through LTI with Moodle, Canvas, and other LMS systems that use the standard.  I live in hope...
 
-Whatever Brad, How do I learn more about the instructor interface
------------------------------------------------------------------
+How do I learn more about the instructor interface
+--------------------------------------------------
 
 I have made a `very informal set of videos <https://www.youtube.com/channel/UCAfQvSLv5senKZHfaycIz8w>`_ for just this purpose.
 
@@ -67,9 +77,41 @@ You invite them, either in class or with an email.  Tell them to register at int
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
 
+Where do I find answers to all the homework questions?
+------------------------------------------------------
+
+In my years of teaching computer science I was always learning something new and trying to stay ahead of the students.  I understand that for many of you this might be a first time teaching a CS course, and that for many you are overworked and underpaid.  I hear you, and I feel your pain.
+
+But just as I tell my students, you can't really learn this stuff just by reading the answer, you have to do it.
+
+We have many books on Runestone Academy written by many authors.  Whether or not authors provide an instructor guide or answers to all the questions is up to them.  So there is no blanket answer to the question.
+
+
+For myself there are several reasons:
+
+1.  Writing an instructor guide that contains all of the answers to the questions essentially doubles the work of writing a book, and even more so maintaining the book.  In all the textbooks I've used over the years for CS I've only ever had one that had a solution guide and that was largely for all of the math in a networking text.
+
+2.  For 99% of the questions there is no one right answer.  Very likely if I give you an answer there is a better one out there, and I really don't want to get into arguments about what is better.  Especially since a lot of it comes down to style.
+
+3.  Doing the work is the best way to prepare to teach it.  You are smarter, wiser, and a better problem solver than your students.  Its actually good for them to see how you approach solving the problem rather consulting some answer key.
+
+4.  From a practical perspective it would be very hard for me to decide who gets the materials.  How do I know you are an instructor?  I can't possibly take the time to go check out every  user that claims to be an instructor to see if they are legit.  Right now the only benefit of being an instructor is that you get to see and grade the work of your students.  If you are a student pretending to be an instructor this gives you no advantage.
+
+5. As I think about how best to invest the hours of my day that I have to work on this, I have very little energy or excitement for writing an answer key.  So I choose to spend my time elsewhere.  If others were to do so, and want to publish it somehow, I would be very happy to accept a PR!
+
+6. I wold much rather put my energy into developing good unit tests, so that you know when you are right and when you are not there yet without me giving you solution.
+
+7. With all of that, behind me, I'm still thinking about it, and trying to find a way to do it where its NOT a huge amount of extra work, and I can keep things in sync.  I've thought about charging for the instructor guide as one way to both disuade casual cheaters and to help fund Runestone development.  Stay tuned...
+
+How Do I rebuild my book?  What happened to the rebuild button?
+---------------------------------------------------------------
+
+If you are still using a book that is under /runestone/static/... You should email me, so we can convert your course to the new way of doing things.  As runestone grew, supporting books where instructors may or may not have rebuilt with the latest bug fixes was a nightmare.  So now we take care of all of that. Everyone sees the latest version the book their course is based on!  I do updates to all the books with fixes to typos or outright bugs once a week on Saturday as our analytics show that is our least busy day.  There are lots of great things we can do with this new model.  So look for more cool features.
+
 When I play a video I don't get any sound
 -----------------------------------------
 
+As of August 2019 this should be a non-issue.
 We are in the process of moving all videos to be hosted on Youtube. In the meantime this is largely limited to Firefox, so as a workaround you can get the sound in a different browser.
 
 Can I build my own course and host it here?
