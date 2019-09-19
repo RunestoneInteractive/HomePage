@@ -31,10 +31,20 @@ The Runestone project was originally conceived as only parts 2, and 4.  But it b
 
 Currently number 4 is being used by over 25,000 students a day in over 600 universities, colleges, and high schools. This number is growing by around 2,000 students each semester.
 
-I seem to have a student account, how can I get/create an instructor account?
---------------------------------------------------------------------------------
+Why Can't I access the Instructor Page?
+---------------------------------------
 
-The short answer is that you become an instructor by creating a course.  You are the instructor for that course only and any other course you create.  But not for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
+How do I become an instructor?
+------------------------------
+
+* I seem to have a student account, how can I get/create an instructor account?
+
+* I created an instructor account but...
+
+First lets clear up a couple of misconcptions.  There is no way for me to know, just by your email address that you are an instructor.  You could be anyone.  So, there is no such thing as an instructor account.
+
+You become an instructor by creating a course. This gives you the privileges associated with being an instructor but ONLY for that course and any other course(s) you create.  You are not an instructor for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
+
 
 What Runestone is Not?
 ----------------------
@@ -47,8 +57,8 @@ The Rebellion continues, in the Google group I set up for instructors, I don't t
 
 LTI will save me.  Its almost there, and its almost ready.  The best solution in my opinion is a good integration through LTI with Moodle, Canvas, and other LMS systems that use the standard.  I live in hope...
 
-Whatever Brad, How do I learn more about the instructor interface
------------------------------------------------------------------
+How do I learn more about the instructor interface
+--------------------------------------------------
 
 I have made a `very informal set of videos <https://www.youtube.com/channel/UCAfQvSLv5senKZHfaycIz8w>`_ for just this purpose.
 
@@ -67,9 +77,41 @@ You invite them, either in class or with an email.  Tell them to register at run
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
 
+Where do I find answers to all the homework questions?
+------------------------------------------------------
+
+In my years of teaching computer science I was always learning something new and trying to stay ahead of the students.  I understand that for many of you this might be a first time teaching a CS course, and that for many you are overworked and underpaid.  I hear you, and I feel your pain.
+
+But just as I tell my students, you can't really learn this stuff just by reading the answer, you have to do it.
+
+We have many books on Runestone Academy written by many authors.  Whether or not authors provide an instructor guide or answers to all the questions is up to them.  So there is no blanket answer to the question.
+
+
+For myself there are several reasons:
+
+1.  Writing an instructor guide that contains all of the answers to the questions essentially doubles the work of writing a book, and even more so maintaining the book.  In all the textbooks I've used over the years for CS I've only ever had one that had a solution guide and that was largely for all of the math in a networking text.
+
+2.  For 99% of the questions there is no one right answer.  Very likely if I give you an answer there is a better one out there, and I really don't want to get into arguments about what is better.  Especially since a lot of it comes down to style.
+
+3.  Doing the work is the best way to prepare to teach it.  You are smarter, wiser, and a better problem solver than your students.  Its actually good for them to see how you approach solving the problem rather consulting some answer key.
+
+4.  From a practical perspective it would be very hard for me to decide who gets the materials.  How do I know you are an instructor?  I can't possibly take the time to go check out every  user that claims to be an instructor to see if they are legit.  Right now the only benefit of being an instructor is that you get to see and grade the work of your students.  If you are a student pretending to be an instructor this gives you no advantage.
+
+5. As I think about how best to invest the hours of my day that I have to work on this, I have very little energy or excitement for writing an answer key.  So I choose to spend my time elsewhere.  If others were to do so, and want to publish it somehow, I would be very happy to accept a PR!
+
+6. I wold much rather put my energy into developing good unit tests, so that you know when you are right and when you are not there yet without me giving you solution.
+
+7. With all of that, behind me, I'm still thinking about it, and trying to find a way to do it where its NOT a huge amount of extra work, and I can keep things in sync.  I've thought about charging for the instructor guide as one way to both disuade casual cheaters and to help fund Runestone development.  Stay tuned...
+
+How Do I rebuild my book?  What happened to the rebuild button?
+---------------------------------------------------------------
+
+If you are still using a book that is under /runestone/static/... You should email me, so we can convert your course to the new way of doing things.  As runestone grew, supporting books where instructors may or may not have rebuilt with the latest bug fixes was a nightmare.  So now we take care of all of that. Everyone sees the latest version the book their course is based on!  I do updates to all the books with fixes to typos or outright bugs once a week on Saturday as our analytics show that is our least busy day.  There are lots of great things we can do with this new model.  So look for more cool features.
+
 When I play a video I don't get any sound
 -----------------------------------------
 
+As of August 2019 this should be a non-issue.
 We are in the process of moving all videos to be hosted on Youtube. In the meantime this is largely limited to Firefox, so as a workaround you can get the sound in a different browser.
 
 Can I build my own course and host it here?
@@ -84,10 +126,25 @@ The best approach is to use our system to build your own textbook.  This gives y
 * at a glance information about the multiple choice and fill in the blank questions embedded in the text.
 
 
+
+How do I build my own course?
+-----------------------------
+
+.. admonition::  Steps to Build
+
+   1.  First you should register yourself as a user on this site.  When you register you must pick a course.  Just use thinkcspy or pythonds, it doesn't matter as that will change when you build your own.
+   2.  Then go to the `instructors page <https://runestone.academy/runestone/admin/index>`_.
+   3.  On this page you will see the links for listing and grading assignments and lots of other things.  Right now those won't show you anything, so move along to the `Create a Custom Course <https://runestone.academy/runestone/designer>`_ link.
+   4. Fill in the Project Name.  This should be a short one word description of your course like `luther150a.`  When your students register for the course this is the name they will have to type in to join your particular course.   No Spaces allwed in this name.
+   5. The description can say a bit more about the course.
+   6. Choose one of the ready-made books for your course.
+   7.  Its probably just fine to leave this at today's date.  If you set it into the future and then do some experimenting with assignments and quizzes today you won't be able to see your results because you are only shown things that come after the start date.
+
+
 Is this site reliable enough to use in class?
 ---------------------------------------------
 
-Yes.  All of the important parts of the book are served as static pages.  Everything else that happens either uses Javascript right in the browser, or background ajax calls that won't have any impact on the primary text.  We host this on a very reliable service and we monitor our traffic constantly. We use a content distribution network for increased scalability and reliability.  In the Spring of 2016 we were serving over 20,000 students a day with almost zero downtime.
+Yes. We host this on a very reliable service and we monitor our traffic constantly. We use a content distribution network for increased scalability and reliability.  In the Spring of 2019 we were serving over 25,000 students a day with no downtime.
 
 Why did you change domain names?
 --------------------------------
@@ -102,12 +159,13 @@ You should create a new course and then from the instructor page in the new cour
 .. image:: copyassign.png
     :width: 600
 
-All the data from past terms is still saved in the database so students that want to go back and look at things from their past terms will be able to access their information, but nothing prior to your latest course start date will show up in any of your reports.
+The instructor interface allows you to copy all your assignments from a past course into your current course, so re-using an old assignment is pretty simple.  It even re-calculates a due date for your based on the delta between your old term start date and when you had the assignment due that term.
+
 
 How do I update my course to get the latest bug fixes?
 ------------------------------------------------------
 
-Nothing.  Bug fixes are automatically updated weekly.
+Nothing.  Bug fixes are automatically deployed weekly.
 
 
 I was just experimenting and I want to delete my course
@@ -118,7 +176,7 @@ Once you are done experimenting please delete your course from the instructors i
 What if I want to add a new section or chapter?
 -----------------------------------------------
 
-That would be awesome.  This whole book is open source.  You can grab a copy of the source on `github <http://github.com/bnmnetp/runestone>`_.  The source for thinkcspy and pythonds is in the source folder and there is a subfolder for each chapter.  If you want to make a whole new chapter then create a folder and follow the conventions of one of the other chapters.  There is full documentation for the markup language at `docs.runestoneinteractive.org <http://docs.runestoneinteractive.org>`_.  When you are finished make a pull request and we'll review your material and incorporate them into the book.
+That would be awesome.  This whole book is open source.  You can grab a copy of the source on `github <https://github.com/RunestoneInteractive>`_.  The source for thinkcspy and pythonds is in the source folder and there is a subfolder for each chapter.  If you want to make a whole new chapter then create a folder and follow the conventions of one of the other chapters.  There is full documentation for the markup language at `docs.runestoneinteractive.org <http://docs.runestoneinteractive.org>`_.  When you are finished make a pull request and we'll review your material and incorporate them into the book.
 
 What if I want to add my own exercises?
 ---------------------------------------
@@ -136,7 +194,7 @@ Ok, this is a question that has the potential to start nasty religious wars.  Th
 I think there is a bug in your book what should I do?
 -----------------------------------------------------
 
-Please let us know!  You can file bug reports on our `github issues page <http://github.com/bnmnetp/runestone/issues>`_.  Thanks!  If you don't have a github account then you can tweet me at iRunestone   or visit our `google.groups discussion <https://groups.google.com/forum/#!forum/runestoneinteractive>`_
+Please let us know!  You can file bug reports on our `github issues page <http://github.com/RunestoneInteractive/RunestoneComponents/issues>`_.  Thanks!  If you don't have a github account then you can tweet me at iRunestone   or visit our `google.groups discussion <https://groups.google.com/forum/#!forum/runestoneinteractive>`_
 
 
 I have a question that is not covered here!
