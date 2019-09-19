@@ -68,12 +68,12 @@ We also have a nice new `Instructor Guide <https://runestone.academy/runestone/s
 Help!  I cannot log in.  Every time I try to log in, I have to reset my password!
 ---------------------------------------------------------------------------------
 
-In 99.99% of the cases, this is because you are confusing your email address with the username you were forced to enter when you register.  So, go through the password reset process and get yourself logged in again.  Then look in the upper right hand corner of the page and pull down the user menu (the one that looks like a person.)  Your username will be displayed at the top of that menu.  Yes, I get that most places just have you use your email address now, but my web development framework is old school.  This will change in the next major upgrade of the server (hopefully summer 2016)
+In 99.99% of the cases, this is because you are confusing your email address with the username you were forced to enter when you register.  So, go through the password reset process and get yourself logged in again.  Then look in the upper right hand corner of the page and pull down the user menu (the one that looks like a person.)  Your username will be displayed at the top of that menu.  We use username instead of email address to protect the privacy of our users.
 
 How do I add students to my course?
 -----------------------------------
 
-You invite them, either in class or with an email.  Tell them to register at interactivepython.org and then give them the name of the course you created.  During the regsitration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
+You invite them, either in class or with an email.  Tell them to register at runestone.academy and then give them the name of the course you created.  During the registration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
 
@@ -126,6 +126,7 @@ The best approach is to use our system to build your own textbook.  This gives y
 * at a glance information about the multiple choice and fill in the blank questions embedded in the text.
 
 
+
 How do I build my own course?
 -----------------------------
 
@@ -153,11 +154,18 @@ The old domain name, "interactivepython.org" was becoming quite inacurate. Altho
 I want to reuse my course from last year, what should I do?
 -----------------------------------------------------------
 
-You can either just change your course start date, see above, or you can rebuild your course.   We recommend that you rebuild your course every so often to get the latest bug fixes etc.  Here is the link to `rebuild your course <https://runestone.academy/runestone/admin/rebuildcourse>`_.
+You should create a new course and then from the instructor page in the new course copy the assignments from your old course.  The assignment dates will be adjusted based on the class start date.
 
-All the data from past terms is still saved in the database so students that want to go back and look at things from their past terms will be able to access their information, but nothing prior to your latest course start date will show up in any of your reports.
+.. image:: copyassign.png
+    :width: 600
 
 The instructor interface allows you to copy all your assignments from a past course into your current course, so re-using an old assignment is pretty simple.  It even re-calculates a due date for your based on the delta between your old term start date and when you had the assignment due that term.
+
+
+How do I update my course to get the latest bug fixes?
+------------------------------------------------------
+
+Nothing.  Bug fixes are automatically deployed weekly.
 
 
 I was just experimenting and I want to delete my course
@@ -191,7 +199,7 @@ Please let us know!  You can file bug reports on our `github issues page <http:/
 
 I have a question that is not covered here!
 -------------------------------------------
-
+ 
 .. admonition::  Contact
 
    1.  Tweet me @iRunestone
