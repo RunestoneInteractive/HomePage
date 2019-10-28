@@ -70,6 +70,15 @@ Help!  I cannot log in.  Every time I try to log in, I have to reset my password
 
 In 99.99% of the cases, this is because you are confusing your email address with the username you were forced to enter when you register.  So, go through the password reset process and get yourself logged in again.  Then look in the upper right hand corner of the page and pull down the user menu (the one that looks like a person.)  Your username will be displayed at the top of that menu.  We use username instead of email address to protect the privacy of our users.
 
+I'm not getting the password reset email, can you reset my password?
+--------------------------------------------------------------------
+
+Technically, I can.  But I won't.  Runestone handles over 100 password resets a day automatically.  It can handle yours as well.  There are two things you should check.
+
+1.  Check your SPAM folder for the password reset email. and/or add runestone to your contacts list to avoid that in the future.
+2.  Talk to your IT folks and make sure they are not blocking Runestone.  We're a small group, but we did everything right with our email setup to make the military academies happy, so I think your folks ought to be happy too.
+
+
 How do I add students to my course?
 -----------------------------------
 

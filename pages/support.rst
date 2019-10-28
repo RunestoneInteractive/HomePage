@@ -8,7 +8,8 @@ The best thing to do is to create an issue on our `GitHub <http://github.com/Run
 Here are a few other places you can try:
 
 Join the conversation on Slack
-  `The quickest way to get help from a human <https://join.slack.com/t/runestoneteam/shared_invite/enQtNTg2NTMzNjI3OTQxLTYwYmI3NmI5NDMyYmM4MjAxYWJmMzU3YzU5MGY5ZDlkMjk1N2RiYmJjYjE2YmJiN2UwYzM5NzJmNGYxNzUzZjA>`_
+  `The quickest way to get help from a human <https://join.slack.com/t/runestoneteam/shared_invite/enQtNTg2NTMzNjI3OTQxLWZhYzNlODE0ZGNkYWM1YjNmN2YyN2E5M2MzMTU2YThmOTExYmY0OTIxZTU0ZGVkMzdmZTVlZmM3MzI4ODJhY2Q>`_
+
 
 The Runestone Google Group
   This `group <https://groups.google.com/forum/#!forum/runestone_instructors>`_ is pretty low volume.
