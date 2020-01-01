@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2019/12/15/pretext_runestone_partnership
    2019/10/25/privaterunestone
    2019/10/12/grading_updates
    2019/08/15/fall_homework

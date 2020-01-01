@@ -82,6 +82,7 @@ Technically, I can.  But I won't.  Runestone handles over 100 password resets a 
 How do I add students to my course?
 -----------------------------------
 
+See this post for a detailed description:  `Privacy and Runestone <http://runestoneinteractive.org/2019/10/25/privaterunestone.html>`_
 You invite them, either in class or with an email.  Tell them to register at runestone.academy and then give them the name of the course you created.  During the registration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
@@ -194,6 +195,54 @@ You can add your own custom exercises by editing the assignments.rst file.  This
 
 New exercises are always welcome and we would love to expand the number of exercises.  The simplest way is to go to the `github issues <http://github.com/bnmnetp/runestone/issues>`_ page and file a new issue.  In the description simply include the text for the exercise and which chapter you think it should go in.  We'll take it from there.  After we've added the exercise you can rebuild your book and it will be there.
 
+
+My students are completing work but it is not showing up. Help!
+---------------------------------------------------------------
+
+There are many answers to this, as the question itself is very vague.  Where is it not showing up?  What is not showing up?  The first thing to say is that Runestone goes to great lengths to save everything!  It is extremely rare for an action to go unrecorded. With that said here are things to check.
+
+1.  Make sure your students are logged in to YOUR course and not the open course that you based yours on.  If your student is logged in to your course they will see the name of your course in the upper left corner of the browser window.
+
+2.  Make sure they are paying attention to the progress bar.  If the progress bar is gray they are not logged in!  If it is green they are.  The progress bar will show how many of their activities have been recorded for that page.
+
+3.  Check the assignment page and click on the self grade button.  This is yet another way that students can verify their work has been saved.
+
+4.  For students work to show up in the gradebook you will need to use the grading interface to run the autograder which tabulates the scores for the assignment and saves them in the database.  You also need to release the grades in order for the students to see them on the student progress page. If you haven't released them then they will not see their progress.
+
+5.  Make sure your assignment deadlines are set up correctly or that you have unchecked the box to only count activities before the deadline.
+
+6.  From the student progress page you can click on the name of any student and see the raw log details.  You can also click on the overview reports link from that page and download a CSV file that you can import into your favorite spreadsheet.  This will show you counts of activities for each student, the timestamp of the first time a student interacts with anything in runestone and more.
+
+
+How do I change courses or register for an additional course?
+-------------------------------------------------------------
+
+Under the 👤 menu you will find the Change Course option.  click on that and then at the bottom of the page click on the Enroll in a Course button.  From there you can just
+enter the new course in the Course Name field.
+
+What course name should I use when I register?
+----------------------------------------------
+
+If you are enrolled in a course at a high school, college or university your instructor should give you the name.  If they didn't you need to ask them.  If you are learning on your own, The registration page gives you the full list as does our library page.  But here are the legal, open, courses that anyone can sign up for.  Since you are here you didn't see that so here is the list:
+
+* apcsareview
+* cpp4python
+* cppds
+* csawesome
+* fopp
+* httlads
+* java4python
+* JS4Python
+* learnwebgl2
+* overview
+* pythonds
+* pythoned
+* StudentCSP
+* TeacherCSP
+* thinkcspy
+* webfundamentals
+
+
 What version of Python does your book use?
 ------------------------------------------
 
@@ -208,7 +257,7 @@ Please let us know!  You can file bug reports on our `github issues page <http:/
 
 I have a question that is not covered here!
 -------------------------------------------
- 
+
 .. admonition::  Contact
 
    1.  Tweet me @iRunestone
