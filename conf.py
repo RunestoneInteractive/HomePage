@@ -86,6 +86,7 @@ exclude_patterns = ['drafts/*', '_templates/*', 'README.rst']
 html_sidebars = {
     '**': ['recent.html',
     'runestone_links.html',
+    'partners.html',
     'searchbox.html',
     'support.html',
     'categories.html']
