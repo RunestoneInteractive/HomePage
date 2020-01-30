@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2020/01/26/edfinity_runestone
    2019/12/15/pretext_runestone_partnership
    2019/10/25/privaterunestone
    2019/10/12/grading_updates
@@ -24,4 +25,5 @@ Sitemap
    pages/about
    pages/support
    pages/downloads
+   pages/research
 
