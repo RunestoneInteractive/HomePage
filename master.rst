@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2020/05/22/runestone_5_0
    2019/07/27/ui_polish
    2019/07/01/midsummer
    2019/06/17/sql
