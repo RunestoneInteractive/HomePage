@@ -11,8 +11,12 @@ Join the conversation on Slack
   `The quickest way to get help from a human <https://join.slack.com/t/runestoneteam/shared_invite/enQtODUwNDIwMzg5NDQxLTZlMjAzOTNlNzNlYTVjZDEyODI4ZTY1YjFjNTg3YTBiOWY2ODNlZTA4NWFiMjAxNzlkZGE1MmY0ZTQyY2E5Y2Q>`_
 
 
-The Runestone Google Group
-  This `group <https://groups.google.com/forum/#!forum/runestone_instructors>`_ is pretty low volume.
+Runestone Google Groups for Books
+  * I am Teaching with `Foundations of Python Programming <https://groups.google.com/forum/#!forum/runestone-fopp>`_
+  * I am Teaching with `How to Think Like a Computer Scientist <https://groups.google.com/forum/#!forum/runestone-thinkcspy>`_
+  * I am Teaching with `How to Think Like a Data Scientist <https://groups.google.com/forum/#!forum/runestone-httlads>`_
+  * I am Teaching `CSAwesome <https://groups.google.com/forum/#!forum/teaching-csawesome>`_
+  * This `Runestone Instructors <https://groups.google.com/forum/#!forum/runestone_instructors>`_ is very low volume -- legacy group.
 
 On Facebook
   `Facebook Page <https://www.facebook.com/RunestoneInteractive>`_
