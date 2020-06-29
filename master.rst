@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2020/06/29/runestone_funding
    2020/05/26/runestone_workshop
    2020/05/22/runestone_5_0
    2020/01/26/edfinity_runestone
