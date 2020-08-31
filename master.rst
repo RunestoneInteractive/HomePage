@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2020/08/23/webwork
    2020/07/26/new_titles
    2020/06/29/runestone_funding
    2020/05/26/runestone_workshop
@@ -30,4 +31,5 @@ Sitemap
    pages/support
    pages/downloads
    pages/research
+   pages/webwork
 

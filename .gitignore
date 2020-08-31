@@ -2,3 +2,4 @@ blog/
 .vscode
 *.pyc
 *~
+.history

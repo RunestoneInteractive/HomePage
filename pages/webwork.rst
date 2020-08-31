@@ -51,7 +51,7 @@ FAQ
 
    1.  What about pre-packaged ready-to-go courses?
 
-       Depending on what you need, we can set you up with something. A few examples are visible at `the Runestone WeBWorK site <https://webwork.runestone.academy/webwork2/>`_. There are more model courses we can load for you as well. 
+       Depending on what you need, we can set you up with something. A few examples are visible at `the Runestone WeBWorK site <https://webwork.runestone.academy/webwork2/>`_. There are more model courses we can load for you as well.
 
    1.  What kind of tech support can I expect?
 
@@ -71,7 +71,7 @@ FAQ
 
    1.  What about student data privacy?
 
-       The only users with access to your studnet data are you and the faculty you add to the course, and Runestone Academy administrators. Runestone Academy will not access your student data except in the course of assisting you with an issue. If there is ever any other reason for us to access your student data (for example a research project that could lead to improved understanding of online learning) we will contact you for approval before doing anything.
+       The only users with access to your studnet data are you and the faculty you add to the course, and Runestone Academy administrators. Runestone Academy will not access your student data except in the course of assisting you with an issue. Please see the Runestone Interactive `Privacy Policy <https://runestone.academy/runestone/default/privacy>`_ and `Terms of Use <https://runestone.academy/runestone/default/terms>`_ for more details.
 
 
 
