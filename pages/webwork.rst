@@ -59,7 +59,7 @@ FAQ
 
    1.  Something is not working with a WeBWorK problem. Or it has an accessibility issue. Or I want to design a new WeBWorK problem that behaves in a certain way. If I am not able to work it out using the user forums and reference information at the wiki, what can I do?
 
-       `Alex <alex@runestoneinteractive.com>`_ is available to debug an existing WeBWorK problem or design a template problem from scratch. For Fall 2020, this is just a trial service to see how much time would be spent on such things. Starting in Fall 2021, this may become an add-on service for an additional fee, or it may no longer be offered.
+       `Alex <alex@runestoneinteractive.com>`_ is available to debug an existing WeBWorK problem or design a template problem from scratch. For Fall 2020, this is just a trial service to see how much time would be spent on such things. Starting in 2021, this may become an add-on service for an additional fee, or it may no longer be offered.
 
    1.  What if I invest my time in this service, setting up some WeBWorK courses, but then I have to leave? For example, if this service goes away or it becomes a service with a fee that I am not able to pay. Will I be able to keep my content?
 
