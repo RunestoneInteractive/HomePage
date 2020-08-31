@@ -6,4 +6,4 @@ if [ -z "VIRTUAL_ENV" ]; then
 fi
 
 tinker --build
-rsync -avz -e 'ssh -i /Users/bradleymiller/.ssh/id_rsa' blog/html/ bnmnetp:/var/www/runestone/html/
+rsync -avz -e 'ssh -i /home/bmiller/.ssh/id_rsa' blog/html/ bnmnetp:/var/www/runestone/html/
