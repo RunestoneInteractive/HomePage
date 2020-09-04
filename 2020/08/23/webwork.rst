@@ -22,7 +22,7 @@ Over the last 9 months I've been working with Rob Beezer and the team to integra
 
 In order to make the integration work well, we decided that Runestone should host its own WebWork server.  This allows us the flexibility to run a custom server that supports the needs of Runestone on our schedule.  The load on the server is fairly light for Runestone's purposes so Alex proposed that we use that spare capacity to serve the community.  Alex Jordan is a WeBWorK developer partnering with Runestone Academy for this service, and will be managing the WebWork server and providing faculty with some level of support.  Alex has been invaluable in getting the integration complete.
 
-Runestone Academy is hosting free WeBWorK courses for Fall 2020. If you would like to use this service (or if you have questions), please contact alex dot jordan at pcc dot edu. If you are unfamiliar with WebWork, a few `demonstration courses <https://webwork.runestone.academy/webwork2/>`_ are set up with guest login:
+Runestone Academy is hosting free WeBWorK courses for Fall 2020. If you would like to use this service (or if you have questions), Check out our `Webwork Page </pages/webwork.html>`_
 
 * Active Prelude to Calculus
 * Active Calculus
@@ -34,8 +34,6 @@ This is a great addition to Runestone.  We can learn a lot from the WebWork comm
 Why are we doing this? First, we recognize that in the era of remote teaching during a pandemic, some faculty are still searching for an affordable online homework platform. Second, if this semester's WeBWorK trial is successful, we plan to offer this as an inexpensive but fee-based add-on service to Runestone Academy. We would charge between $50 and $100 per course (not per student). This is part of a multifaceted plan to make Runestone Academy sustainable. All revenue exceeding expenses would support some open source educational technology, such as Runestone and the WeBWorK Project.
 
 In case you did not know, WeBWorK problems and problem sets are easily portable. Any PreTeXt book with WebWork can export and archive of problems for use ona WebWork server.  If you try this service in the Fall and would like to move to some other server once Runestone academy starts charging for the service, you will be able to export everything with no hassle.
-
-Once again, to express your interest or ask any questions, please email alex dot jordan at pcc dot edu.
 
 If you are new to Runestone, this `YouTube Playlist <https://www.youtube.com/playlist?list=PLnjfglXW2QQSVCuOj4VsdmWTRAfQy6Zrb>`_ will demonstrate every aspect of Runestone from the instructors side.  To get a good idea of the student experience you can take a look at `The Overview Book <https://runestone.academy/runestone/books/published/overview/index.html>`_  The PreTeXt project also has a number of `samples available <https://pretextbook.org/examples.html>`_.
 
