@@ -60,7 +60,7 @@ FAQ
 
    #.  What kind of tech support can I expect?
 
-       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times upo through Summer 2021 will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
+       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times up through Summer 2021 will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
 
    #.  Something is not working with a WeBWorK problem. Or it has an accessibility issue. Or I want to design a new WeBWorK problem that behaves in a certain way. If I am not able to work it out using the user forums and reference information at the wiki, what can I do?
 
