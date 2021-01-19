@@ -77,6 +77,13 @@ Technically, I can.  But I won't.  Runestone handles over 100 password resets a 
 
 1.  Check your SPAM folder for the password reset email. and/or add runestone to your contacts list to avoid that in the future.
 2.  Talk to your IT folks and make sure they are not blocking Runestone.  We're a small group, but we did everything right with our email setup to make the military academies happy, so I think your folks ought to be happy too.
+3. If you are a student, talk to your instructor.  Your instructor can reset your password in the case where the email system is failing us.
+
+
+I can't log in to my Coursera course, what do I do?
+---------------------------------------------------
+
+Sorry, but we do not have control over Coursera and especially the courses from UMSI.  Those courses are designed for you to access through Canvas.  If that is not working please contact your coursera instructor.
 
 
 How do I add students to my course?
@@ -86,6 +93,21 @@ See this post for a detailed description:  `Privacy and Runestone <http://runest
 You invite them, either in class or with an email.  Tell them to register at runestone.academy and then give them the name of the course you created.  During the registration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
+
+What do those green checkmarks and orange circles mean?
+-------------------------------------------------------
+
+A green checkmark for a page means that you have completed that page, either you have satisfied yourself that you are done OR you have **attempted** all of the interactive activities on that page.  It does NOT mean you got everything correct.  Clicking the button bottom of the page WILL NOT give you full credit on a reading assignment, you still need to do the work.
+
+Historically this was ONLY for your own personal benefit to help you keep track of the things you had read and the things you were currently reading.  It has evolved and with that evolution comes some confusion. Hopefully this clears it up.
+
+How come there is no Green Checkmark for the Exercises pages?
+-------------------------------------------------------------
+
+Some exercises pages have over 300 problems.  Do you really think we expect you to do ALL of them?  We expect your instructor to use some discretion when assigning you homework.  You will not find green checkmarks for Exercises or for table of contents pages.
+
+Sorry if that freaks you out, but that is just how we do it.
+
 
 Where do I find answers to all the homework questions?
 ------------------------------------------------------
