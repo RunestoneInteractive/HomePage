@@ -26,10 +26,12 @@ Runestone is a project that has four main parts to it:
        * Grade homework problems right in the textbook
        * Create Assignments by grouping exercises
 
+   5. Well, it has become a small LMS.  It is an opinionated LMS in that it mostly does things the way I would want them.  Its not the main focus of Runestone though, and changing LMS functionality takes time away from making Runestone a better pedagogical tool.
+
 
 The Runestone project was originally conceived as only parts 2, and 4.  But it became clear very quickly that few people want to write their own textbooks, so part 3 was born, especially with the encouragement of our publisher at Franklin Beedle who allowed us to put our paper textbook online in interactive form.  Part 4 was conceived when it became clear that even fewer people wanted to manage their own server.
 
-Currently number 4 is being used by over 25,000 students a day in over 600 universities, colleges, and high schools. This number is growing by around 2,000 students each semester.
+Currently number 4 is being used by over 50,000 registered students, in over 1000 universities, colleges, and high schools. This number is growing rapidly!
 
 Why Can't I access the Instructor Page?
 ---------------------------------------
@@ -46,16 +48,6 @@ First lets clear up a couple of misconcptions.  There is no way for me to know, 
 You become an instructor by creating a course. This gives you the privileges associated with being an instructor but ONLY for that course and any other course(s) you create.  You are not an instructor for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
 
 
-What Runestone is Not?
-----------------------
-
-It sounds better if  you say it in your best Yoda voice.
-
-I never wanted Runestone to be a course management system. I still don't. In my opinion there are already plenty of mediocre to good course management systems out there.  I don't want to make yet another.  However circumstances, and other instructors keep pushing Runestone in that direction.  I'm going kicking and screaming.  I would much rather integrate than reinvent.  Making online grade books is a losing proposition, as everyone has their own idea of how the "best" gradebook should work.  I brought this on myself, the moment I said "hey, self, why not make a nice little grading interface so you can grade all of the assignments right in the book?"  I thought that would be handy, and much better than downloading a bunch from moodle and running them.  They were all right there in the database, just click a button and run the program, then enter the grade.  Later the grades can be copied over to moodle or whatever.
-
-The Rebellion continues, in the Google group I set up for instructors, I don't think I've had a single question about the content of the books.  Every single question and discussion falls under the category of "why  don't you have this <course management> feature?"  sigh.  Feature creep is real.
-
-LTI will save me.  Its almost there, and its almost ready.  The best solution in my opinion is a good integration through LTI with Moodle, Canvas, and other LMS systems that use the standard.  I live in hope...
 
 How do I learn more about the instructor interface
 --------------------------------------------------
@@ -113,16 +105,6 @@ For myself there are several reasons:
 
 7. With all of that, behind me, I'm still thinking about it, and trying to find a way to do it where its NOT a huge amount of extra work, and I can keep things in sync.  I've thought about charging for the instructor guide as one way to both disuade casual cheaters and to help fund Runestone development.  Stay tuned...
 
-How Do I rebuild my book?  What happened to the rebuild button?
----------------------------------------------------------------
-
-If you are still using a book that is under /runestone/static/... You should email me, so we can convert your course to the new way of doing things.  As runestone grew, supporting books where instructors may or may not have rebuilt with the latest bug fixes was a nightmare.  So now we take care of all of that. Everyone sees the latest version the book their course is based on!  I do updates to all the books with fixes to typos or outright bugs once a week on Saturday as our analytics show that is our least busy day.  There are lots of great things we can do with this new model.  So look for more cool features.
-
-When I play a video I don't get any sound
------------------------------------------
-
-As of August 2019 this should be a non-issue.
-We are in the process of moving all videos to be hosted on Youtube. In the meantime this is largely limited to Firefox, so as a workaround you can get the sound in a different browser.
 
 Can I build my own course and host it here?
 -------------------------------------------
@@ -154,7 +136,7 @@ How do I build my own course?
 Is this site reliable enough to use in class?
 ---------------------------------------------
 
-Yes. We host this on a very reliable service and we monitor our traffic constantly. We use a content distribution network for increased scalability and reliability.  In the Spring of 2019 we were serving over 25,000 students a day with no downtime.
+Yes. We host this on a very reliable service and we monitor our traffic constantly. We use a content distribution network for increased scalability and reliability.  In the Fall of 2020 we serve over 50,000 students a day with no downtime.  Runestone is also used for a couple of courses on coursera which have hundreds of thousands of students, and by many large Universities.
 
 Why did you change domain names?
 --------------------------------
@@ -264,4 +246,22 @@ I have a question that is not covered here!
    2.  Post the question on our google group
    3.  Send me a private email.  runestoneinteractive@gmail.com
 
+
+My Internet is slow, I want to use Runestone offline
+----------------------------------------------------
+
+This might require a little extra learning on your part but here is what you need to do. If you can't get this to work on your own ask your teacher for some help.
+
+1. Install Python 
+2. Use pip to install runestone (pip install runestone)
+3. Download or use git to clone the repository for your book from https://github.com/RunestoneInteractive
+4. Edit the pavement.py file for your book and set dynamic_pages = False and useRunestoneServices=False
+5. In the folder created for your book run runestone build --all
+6. Run the command runestone serve and then in your browser go to http://localhost:8000
+This will let you access your book from a webserver running on your own computer, It will save your work locally, as long as you use the same browser.  But it will NOT share or sync any information with Runestone.academy
+
+Why can't I just get a PDF?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Because what we are focused on is building great *interactive* textbooks, pdfs are not interactive. Sorry, there are not enough hours in the day to do everything.
 
