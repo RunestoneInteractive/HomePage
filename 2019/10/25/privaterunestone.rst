@@ -27,7 +27,7 @@ Experience has shown that having students register themselves and get all of tho
 You can upload a CSV file with the following format:  One row for each student
 ::
 
-    username, email, first_name, last_name, password, course
+    username,email,first_name,last_name,password,course
 
 In order to protect your students privacy you can create a spreadsheet like the following:
 
@@ -37,6 +37,9 @@ In order to protect your students privacy you can create a spreadsheet like the 
     hogwarts-2,dumbledore+hogwarts1@gmail.com,F2,L2,owls4all,potions_fall19
     hogwarts-3,dumbledore+hogwarts1@gmail.com,F2,L2,owls4all,potions_fall19
 
+.. admonition:: Note
+
+    It is important that you check your CSV file and make sure there are NO SPACES before or after the commas!
 
 From the Manage Students tab on the Instructor's Page, you can now upload this CSV file using the interface.
 
