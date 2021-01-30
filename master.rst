@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2021/01/27/annual_report_2020
    2020/08/23/webwork
    2020/07/26/new_titles
    2020/06/29/runestone_funding
