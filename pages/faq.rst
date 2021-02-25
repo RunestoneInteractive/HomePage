@@ -68,7 +68,7 @@ I'm not getting the password reset email, can you reset my password?
 Technically, I can.  But I won't.  Runestone handles over 100 password resets a day automatically.  It can handle yours as well.  There are two things you should check.
 
 1.  Check your SPAM folder for the password reset email. and/or add runestone to your contacts list to avoid that in the future.
-2.  Talk to your IT folks and make sure they are not blocking Runestone.  We're a small group, but we did everything right with our email setup to make the military academies happy, so I think your folks ought to be happy too.
+2.  Talk to your IT folks and make sure they are not blocking Runestone.  We're a small group, but we did everything right with our email setup to make the military academies happy, so I think your folks ought to be happy too.  However some schools disallow any external email that is not whit-elisted.  Please ask them to white-list `runestoneinteractive@gmail.com` as well as `info@runestone.academy`
 3. If you are a student, talk to your instructor.  Your instructor can reset your password in the case where the email system is failing us.
 
 
