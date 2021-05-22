@@ -85,6 +85,7 @@ exclude_patterns = ['drafts/*', '_templates/*', 'README.rst', '.history/*']
 # Add templates to be rendered in sidebar here
 html_sidebars = {
     '**': ['recent.html',
+    'runestone_academy.html',           
     'runestone_links.html',
     'partners.html',
     'searchbox.html',
