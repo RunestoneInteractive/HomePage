@@ -2,9 +2,28 @@ WeBWorK Hosting
 ===============
 
 Runestone Academy offers hosting for WeBWorK courses.
-We are doing this to give greater access to WeBWorK,
+We do this to give greater access to WeBWorK,
 especially for institutions that do not have their own WeBWorK server.
 
+
+Cost
+----
+
+Through Summer 2022 and possibly longer, the cost is $100 per section.
+There is no restriction on how many students you may enroll in one section.
+Runestone will only send an invoice once you are using the course(s) with actual students.
+
+Restrictions
+------------
+
+We must be aware of the potential for overuse of this server's resources.
+WeBWorK in general may not perform well if too many users are active at the exact same time.
+Therefore we ask that no one use this service to administer quizzes or exams of any nature on a large scale.
+It should be OK for a typical course of around 30 students to have a timed quiz at the same time,
+but even that can become an issue if coincidentally, several other courses do the same thing at the same time.
+So it is best to plan to not use timed quizzes with this service, or if you do, to plan for times that
+are unlikely to overlap with other users. We will reach out to you if we find your course is responsible
+for too much activity, and we reserve the right to clsoe access to your course until the issue is resolved.
 
 Demonstration Courses
 ---------------------
@@ -17,24 +36,8 @@ Course Request Form
 -------------------
 
 If you would like to request a WeBWorK course, please fill out
-`this form <https://docs.google.com/forms/d/e/1FAIpQLSdC9ILlPjjFIU0f1wQ3H4MhwYbtymiUWQQ3Q0SGIeBwr05i8w/viewform?usp=sf_link>`_.
-If you have multiple sections of one course, please just use the form once.
-But if you are requesting WeBWorK courses for multiple different acadmic courses, please use the form mutliple times.
-
-
-Cost
-----
-
-For Fall 2020, this was a free service. The trial was a success in terms of user satisfaction and reasonable expenses.
-
-Starting in 2021, this service will charge a hosting fee for $100 per course (not per student).
-There is no cap on the number of students, and you may manage multiple sections from one WeBWorK course,
-although in certain circumstances that can be tiring for the instructor.
-
-In Summer 2021 we will reassess the details of what fees are charged.
-Our financial goals are to cover the cloud computing costs, cover the cost of labor hours,
-and contribute a small but meaningful excess to open source education projects
-like Runestone and WeBWorK.
+`this Google form <https://docs.google.com/forms/d/e/1FAIpQLSdQ_bhxOTVgwNpy6DCrvzfhyZGoiuGk_yPYLMJucul0lm-kzw/viewform?usp=sf_link>`_.
+If you have a complicated request that the form doesn't cover, please contact alex@runestoneinteractive.com.
 
 
 FAQ
@@ -44,11 +47,11 @@ FAQ
 
        Yes, WeBWorK itself is considered very accessibile, and has an `Accessibility Guide <https://webwork.maa.org/wiki/Accessibility_Guide>`_.
        It is always possible for individual exercises in WeBWorK to have been coded without proper concern for accessibility issues,
-       but for the most part, individual exercises are accessible.
+       but for the most part, individual exercises are accessible. When they are not, the instructor has access to edit them to become accessible.
 
    #.  Will I be able to integrate my WeBWorK course with my LMS?
 
-       Probably. We will work with you to set that up. It does require some collaboration between us at the WeBWorK end, and you working within your LMS. It has been done successfully with Canvas, Desire2Learn, Blackboard, and Moodle. For some other LMS, we are willing to experiment to see what can be done.
+       Probably. We will work with you to set that up. It does require some collaboration between us at the WeBWorK end, and you working within your LMS. Depending on how your institution manages its LMS, you may need the LMS IT staff to grant you permission. And again depending on your institution, there may be a lengthy review process for that. It has been done successfully with Canvas and Desire2Learn using this WeBWorK server. It has also been done successfully with Blackboard and Moodle with WeBWorK in general.
 
    #.  Where do I find problems to use?
 
@@ -56,15 +59,15 @@ FAQ
 
    #.  What about pre-packaged ready-to-go courses?
 
-       Depending on what you need, we can set you up with something. A few examples are visible at `the Runestone WeBWorK site <https://webwork.runestone.academy/webwork2/>`_. There are more model courses we can load for you as well.
+       Depending on what you need, we may be able to set you up with something. A few examples are visible at `the Runestone WeBWorK site <https://webwork.runestone.academy/webwork2/>`_. There are more model courses we can load for you as well.
 
    #.  What kind of tech support can I expect?
 
-       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times up through Summer 2021 will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
+       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times up through Summer 2022 will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
 
    #.  Something is not working with a WeBWorK problem. Or it has an accessibility issue. Or I want to design a new WeBWorK problem that behaves in a certain way. If I am not able to work it out using the user forums and reference information at the wiki, what can I do?
 
-       `Alex <alex@runestoneinteractive.com>`_ is available to debug an existing WeBWorK problem or design a template problem from scratch. Through Summer 2021, this is just a trial service to see how much time would be spent on such things. Starting in Fall 2021, this may become an add-on service for an additional fee, or it may no longer be offered.
+       `Alex <alex@runestoneinteractive.com>`_ may be available to debug an existing WeBWorK problem or design a template problem from scratch. This depends on how busy life is at that time. But there is always the WeBWorK-using community mentioned above to support you.
 
    #.  What if I invest my time in this service, setting up some WeBWorK courses, but then I have to leave? For example, if this service goes away or it becomes a service with a fee that I am not able to pay. Will I be able to keep my content?
 
@@ -78,8 +81,8 @@ FAQ
 
        The only users with access to your student data are you and the faculty you add to the course, and Runestone Academy administrators. Runestone Academy will not access your student data except in the course of assisting you with an issue. Please see the Runestone Interactive `Privacy Policy <https://runestone.academy/runestone/default/privacy>`_ and `Terms of Use <https://runestone.academy/runestone/default/terms>`_ for more details.
 
-   1.  I'm in Canada, or Europe, or someplace where the local laws and policies make it problematic for me to put student data on your server. What can I do?
+   #.  I'm in Canada, or Europe, or someplace where the local laws and policies make it problematic for me to put student data on your server. What can I do?
 
-       We use cloud computing that is based in the US, but we have looked into the possibility of moving to a Toronto-based data center. If there is enough demand, we will make that move and we hope it helps smooth things out for you. If you are in Europe or somewhere else, please look into the details of the local laws and policies before getting yourself in any trouble.
+       We use cloud computing that is based in the US, but we have looked into the possibility of moving to a Toronto-based data center. If there is enough demand, we will make that move and we hope it helps smooth things out for you. Wherever you are, please look into the details of the local laws and policies before getting yourself in any trouble. It may help to consider using this WeBWorK hosting without using LMS integration.
 
 
