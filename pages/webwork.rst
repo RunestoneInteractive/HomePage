@@ -81,8 +81,12 @@ FAQ
 
        The only users with access to your student data are you and the faculty you add to the course, and Runestone Academy administrators. Runestone Academy will not access your student data except in the course of assisting you with an issue. Please see the Runestone Interactive `Privacy Policy <https://runestone.academy/runestone/default/privacy>`_ and `Terms of Use <https://runestone.academy/runestone/default/terms>`_ for more details.
 
+       If you do *not* use integration with an LMS, there is the option to make up code names for students and omit their email addresses, so that the Runestone WeBWorK server never has actual personal identifiable information.
+
+       If you *do* use integration with an LMS, then depending on the LMS it may be possible to configure the External Tool (in the LMS) to use something that is not personal identifiable information as the student's WeBWorK ID. For example, in Canvas there is an internal Canvas ID for each user that is not related to the institution's student ID. Canvas could use this to authenticate a user into WeBWorK, and omit sending email addresses. This way the Runestone WeBWorK server never has actual personal identifiable information, unless you count the obscure internal Canvas ID.
+
    #.  I'm in Canada, or Europe, or someplace where the local laws and policies make it problematic for me to put student data on your server. What can I do?
 
-       We use cloud computing that is based in the US, but we have looked into the possibility of moving to a Toronto-based data center. If there is enough demand, we will make that move and we hope it helps smooth things out for you. Wherever you are, please look into the details of the local laws and policies before getting yourself in any trouble. It may help to consider using this WeBWorK hosting without using LMS integration.
+       For starters, see the options mentioned in the previosu item. But if there are still concerns, read on. We use cloud computing that is based in the US, but we have looked into the possibility of moving to a Toronto-based data center. If there is enough demand, we will make that move and we hope it helps smooth things out for you. Wherever you are, please look into the details of the local laws and policies before getting yourself in any trouble. It may help to consider using this WeBWorK hosting without using LMS integration.
 
 
