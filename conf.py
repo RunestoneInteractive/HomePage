@@ -10,7 +10,7 @@ import tinkerer.paths
 # **************************************************************
 
 # Change this to the name of your blog
-project = 'Runestone Interactive'
+project = 'Runestone Academy'
 
 # Change this to the tagline of your blog
 tagline = 'Democratizing textbooks for the 21st century'
@@ -22,7 +22,7 @@ description = 'Interactive Textbooks for Computer Science, Data Science and more
 author = 'Brad Miller'
 
 # Change this to your copyright string
-copyright = '2019, ' + author
+copyright = '2022, ' + author
 
 # Change this to your blog root URL (required for RSS feed)
 website = 'http://www.runestoneinteractive.com/'

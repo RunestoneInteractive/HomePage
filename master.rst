@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2022/01/19/academy_update
    2021/12/21/academy_downtime
    2021/12/13/annual_webwork_report
    2021/05/28/data_privacy_agreements
