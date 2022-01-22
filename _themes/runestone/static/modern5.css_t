@@ -101,21 +101,22 @@ footer { padding: 5px 20px; }
 
 /* Palette */
 {%- set theme_color = "#074e78" -%}
-{%- set theme_color_light = "#93a4ad" -%}
+{%- set theme_color_light = "#e8edf2" -%}
+{%- set theme_color_med = "#017ff7" -%}
 {%- set theme_color_dark = "#021724" -%}
 
 {%- set paper_color = "#f8fafb" -%}
 {%- set sidebar_color = "#e6edf2" -%}
 
-{%- set header_color = "#f8f8f8" -%}
+{%- set header_color = "#17465e" -%}
 {%- set text_color = "#0c0501" -%}
 {%- set link_color = "#0b7dc0" -%}
 
 body { background-color: {{ theme_color_light }}; }
 
 header { background-color: {{ theme_color }}; }
-header a, header a:visited, header a:hover, headera:active { color: {{ header_color }}; text-decoration: none; }
-header h2 { color: {{ theme_color_light }}; }
+header a, header a:visited, header a:hover, headera:active { color: {{ theme_color_med }}; text-decoration: none; }
+header h2 { color: {{ theme_color_med }}; }
 
 nav li a, nav li a:visited, footer { color: {{ theme_color_light }}; text-decoration: none; }
 nav li a:hover { color: {{ header_color }}; text-decoration: none; }
@@ -130,7 +131,7 @@ div.section h1 a { color: {{ text_color }}; text-decoration: none; }
 div.main { background-color: {{ sidebar_color }}; }
 article { background: {{ paper_color }} url('paper.png') repeat; }
 
-div.postmeta { color: {{ theme_color_light }}; }
+div.postmeta { color: {{ theme_color_med }}; }
 div.post_separator { border-bottom: 1px dotted {{ theme_color_light }}; }
 
 /* Effects */
@@ -144,16 +145,18 @@ nav, footer { background: #354550; }
 aside.sidebar { border-top: 1px solid #cfd5da; }
 
 @media only screen and (min-width: 480px) {
-    header { background-image: url('header.png'); background-repeat: repeat; }
+    /* header { background-image: url('header.png'); background-repeat: repeat; } */
+    header { background: #e7edf2; }
 
     nav, footer {
-        background: -moz-linear-gradient(top, #354550 0%, #021520 50%, #02121d 51%, #011019 100%);
+        background: #1d81ef;
+    /*    background: -moz-linear-gradient(top, #354550 0%, #021520 50%, #02121d 51%, #011019 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#354550), color-stop(50%,#021520), color-stop(51%,#02121d), color-stop(100%,#011019));
         background: -webkit-linear-gradient(top, #354550 0%,#021520 50%,#02121d 51%,#011019 100%);
         background: -o-linear-gradient(top, #354550 0%,#021520 50%,#02121d 51%,#011019 100%);
         background: -ms-linear-gradient(top, #354550 0%,#021520 50%,#02121d 51%,#011019 100%);
         background: linear-gradient(top, #354550 0%,#021520 50%,#02121d 51%,#011019 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#354550', endColorstr='#011019',GradientType=0 );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#354550', endColorstr='#011019',GradientType=0 ); */
     }
 
     footer, nav li { text-shadow: 0 2px 3px {{ theme_color_dark }}; }
