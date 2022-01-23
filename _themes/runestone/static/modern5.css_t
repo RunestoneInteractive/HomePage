@@ -58,7 +58,9 @@ div.archive_link { padding-top: 10px; text-align: center; }
 footer { padding: 5px 20px; }
 
 @media only screen and (min-width: 480px) {
-    header { padding: 40px 0; }
+    header { padding: 40px 0; 
+        min-height: 150px;
+    }
     header h1 { padding: 0 40px; }
     header h2 { padding: 0 40px; }
 

@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2022/01/22/the_new_new_academy
    2022/01/19/academy_update
    2021/12/21/academy_downtime
    2021/12/13/annual_webwork_report
@@ -35,7 +36,6 @@ Sitemap
    pages/library
    pages/about
    pages/support
-   pages/downloads
    pages/research
    pages/webwork
 

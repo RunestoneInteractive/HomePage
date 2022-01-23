@@ -35,7 +35,7 @@ website = 'http://www.runestoneinteractive.com/'
 disqus_shortname = 'runestoneblog'
 
 # Change your favicon (new favicon goes in _static directory)
-html_favicon = '_static/tinkerer.ico'
+html_favicon = '_static/runestone.ico'
 
 # Pick another Tinkerer theme or use your own
 #html_theme = 'modern5'
