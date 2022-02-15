@@ -16,6 +16,7 @@ Runestone Google Groups for Books
   * I am Teaching with `How to Think Like a Computer Scientist <https://groups.google.com/forum/#!forum/runestone-thinkcspy>`_
   * I am Teaching with `How to Think Like a Data Scientist <https://groups.google.com/forum/#!forum/runestone-httlads>`_
   * I am Teaching `CSAwesome <https://groups.google.com/forum/#!forum/teaching-csawesome>`_
+  * I am Teaching `Mobile CSP <https://groups.google.com/g/teaching-mobile-csp/>`_
   * This `Runestone Instructors <https://groups.google.com/forum/#!forum/runestone_instructors>`_ is very low volume -- legacy group.
 
 On Facebook
