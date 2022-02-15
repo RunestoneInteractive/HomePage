@@ -68,7 +68,9 @@ first_page_title = None
 # **************************************************************
 
 # Add other Sphinx extensions here
-extensions = ['tinkerer.ext.blog', 'tinkerer.ext.disqus']
+extensions = ['tinkerer.ext.blog', 'tinkerer.ext.disqus', 'sphinx_reredirects']
+
+redirects = {"pages/library": "https://runestone.academy/runestone/books"}
 
 # Add other template paths here
 templates_path = ['_templates']
@@ -85,12 +87,12 @@ exclude_patterns = ['drafts/*', '_templates/*', 'README.rst', '.history/*']
 # Add templates to be rendered in sidebar here
 html_sidebars = {
     '**': ['recent.html',
-    'runestone_academy.html',           
-    'runestone_links.html',
-    'partners.html',
-    'searchbox.html',
-    'support.html',
-    'categories.html']
+           'runestone_academy.html',
+           'runestone_links.html',
+           'partners.html',
+           'searchbox.html',
+           'support.html',
+           'categories.html']
 }
 
 # Add an index to the HTML documents.
