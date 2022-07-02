@@ -9,7 +9,17 @@ especially for institutions that do not have their own WeBWorK server.
 Cost
 ----
 
-Through Summer 2022 and possibly longer, the cost is $100 per section.
+Through Summer 2024 and possibly longer, the cost is:
+
+- $100 per section for primary and secondary institutions.
+- $120 per section for higher ed institutions, with every 6th course free. For example, 13 courses would come to $1320.
+
+The 6th course discount for higher ed applies at the time of invoicing.
+So for example there is no discount for ordering 4 courses in the Fall and then 4 more in the Spring.
+But you are welcome to preorder courses for a future term/semester, as long as it's not more than 8 months in advance.
+Since this hosting service is only promised annually, we can't accept orders too far into the future.
+
+
 There is no restriction on how many students you may enroll in one section.
 Runestone will only send an invoice once you are using the course(s) with actual students.
 
@@ -17,13 +27,14 @@ Restrictions
 ------------
 
 We must be aware of the potential for overuse of this server's resources.
-WeBWorK in general may not perform well if too many users are active at the exact same time.
+WeBWorK may not perform well if too many users are active at the same time.
 Therefore we ask that no one use this service to administer quizzes or exams of any nature on a large scale.
+
 It should be OK for a typical course of around 30 students to have a timed quiz at the same time,
 but even that can become an issue if coincidentally, several other courses do the same thing at the same time.
 So it is best to plan to not use timed quizzes with this service, or if you do, to plan for times that
 are unlikely to overlap with other users. We will reach out to you if we find your course is responsible
-for too much activity, and we reserve the right to clsoe access to your course until the issue is resolved.
+for too much activity, and we reserve the right to close access to your course until the issue is resolved.
 
 Demonstration Courses
 ---------------------
@@ -36,7 +47,7 @@ Course Request Form
 -------------------
 
 If you would like to request a WeBWorK course, please fill out
-`this Google form <https://docs.google.com/forms/d/e/1FAIpQLSdQ_bhxOTVgwNpy6DCrvzfhyZGoiuGk_yPYLMJucul0lm-kzw/viewform?usp=sf_link>`_.
+`this Google form <https://docs.google.com/forms/d/e/1FAIpQLSdDjb9_L8hN3zaI-7cIvpbbt8YTLcjMwzn-vwq1DJ9SKU7V3g/viewform?usp=sf_link>`_.
 If you have a complicated request that the form doesn't cover, please contact alex@runestoneinteractive.com.
 
 
@@ -63,7 +74,7 @@ FAQ
 
    #.  What kind of tech support can I expect?
 
-       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times up through Summer 2022 will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
+       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
 
    #.  Something is not working with a WeBWorK problem. Or it has an accessibility issue. Or I want to design a new WeBWorK problem that behaves in a certain way. If I am not able to work it out using the user forums and reference information at the wiki, what can I do?
 
