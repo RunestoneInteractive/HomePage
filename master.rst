@@ -4,6 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2022/07/02/pretext_runestone_workshop
+   2022/06/04/summer_2022
    2022/05/23/peer_webinar
    2022/01/22/the_new_new_academy
    2022/01/19/academy_update
