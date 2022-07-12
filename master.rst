@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2022/07/02/webwork_hosting_fee
    2022/07/02/pretext_runestone_workshop
    2022/06/04/summer_2022
    2022/05/23/peer_webinar
