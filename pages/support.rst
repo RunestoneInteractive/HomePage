@@ -19,11 +19,18 @@ Runestone Google Groups for Books
   * I am Teaching `Mobile CSP <https://groups.google.com/g/teaching-mobile-csp/>`_
   * This `Runestone Instructors <https://groups.google.com/forum/#!forum/runestone_instructors>`_ is very low volume -- legacy group.
 
-On Facebook
-  `Facebook Page <https://www.facebook.com/RunestoneInteractive>`_
+If you are an author and need help with PreTeXt
+
+  * Join the `PreTeXt Support <https://groups.google.com/g/pretext-support>`_ list.
+  
+If you are interested in helping with development.
+
+  * check for some "Help Wanted" issues on Github and start a conversation.
+  * Join the `PreTeXt development <https://groups.google.com/g/pretext-dev>`_ list on google
+
 
 On Twitter
-  Send a message to `iRunestone <http://twitter.com/iRunestone>`_
+  Follow `iRunestone <http://twitter.com/iRunestone>`_
 
 Check the FAQ
   `On this site </pages/faq.html>`_
