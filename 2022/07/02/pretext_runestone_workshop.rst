@@ -65,7 +65,7 @@ One of the biggest goals for both PreTeXt and Runestone is to ensure that these 
 
 
 
-.. author:: Announce, Community, History
-.. categories:: none
+.. author:: Brad Miller
+.. categories:: Announce, Community, History
 .. tags:: none
 .. comments::
