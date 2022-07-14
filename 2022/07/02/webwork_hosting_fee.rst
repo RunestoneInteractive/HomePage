@@ -39,7 +39,7 @@ Who knows, if there are more subscriptions or public funding, we could even redu
 -Alex
 
 
-.. author:: default
-.. categories:: none
+.. author:: Alex Jordan
+.. categories:: Announce
 .. tags:: none
 .. comments::
