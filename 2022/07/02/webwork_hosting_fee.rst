@@ -30,12 +30,13 @@ So for example there is no discount for ordering 4 courses in the Fall and then 
 But you are welcome to preorder courses for a future term/semester, as long as it's not more than 8 months in advance.
 Since this hosting service is only promised annually, we can't accept orders too far into the future.
 
-How long will until it could go up again?
------------------------------------------
+How long will it be until it could go up again?
+-----------------------------------------------
 
 We will stick with this through the 22/23 and 23/24 academic years and reassess at that time.
 Who knows, if there are more subscriptions or public funding, we could even reduce the cost.
 
+-Alex
 
 
 .. author:: default
