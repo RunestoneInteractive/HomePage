@@ -81,7 +81,7 @@ Sorry, but we do not have control over Coursera and especially the courses from 
 How do I add students to my course?
 -----------------------------------
 
-See this post for a detailed description:  `Privacy and Runestone <http://runestoneinteractive.org/2019/10/25/privaterunestone.html>`_
+See this post for a detailed description:  `Privacy and Runestone <https://blog.runestone.academy/2019/10/25/privaterunestone.html>`_
 You invite them, either in class or with an email.  Tell them to register at runestone.academy and then give them the name of the course you created.  During the registration process they type in the name you used, and they are registered.  I usually just do this the first day of class to make sure everyone gets registered and then give them a little tour of the book and all of the things they can do.
 
 In the future, we may look into importing a class from some LMS system like Moodle and others.
