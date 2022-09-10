@@ -10,35 +10,35 @@ import tinkerer.paths
 # **************************************************************
 
 # Change this to the name of your blog
-project = 'Runestone Academy'
+project = "Runestone Academy"
 
 # Change this to the tagline of your blog
-tagline = 'Democratizing textbooks for the 21st century'
+tagline = "Democratizing textbooks for the 21st century"
 
 # Change this to the description of your blog
-description = 'Interactive Textbooks for Computer Science, Data Science and more'
+description = "Interactive Textbooks for Computer Science, Data Science and more"
 
 # Change this to your name
-author = 'Brad Miller'
+author = "Brad Miller"
 
 # Change this to your copyright string
-copyright = '2022, ' + author
+copyright = "2022, " + author
 
 # Change this to your blog root URL (required for RSS feed)
-website = 'http://www.runestoneinteractive.com/'
+website = "http://www.runestoneinteractive.com/"
 
 # **************************************************************
 # More tweaks you can do
 # **************************************************************
 
 # Add your Disqus shortname to enable comments powered by Disqus
-disqus_shortname = 'runestoneblog'
+disqus_shortname = "runestoneblog"
 
 # Change your favicon (new favicon goes in _static directory)
-html_favicon = '_static/runestone.ico'
+html_favicon = "_static/runestone.ico"
 
 # Pick another Tinkerer theme or use your own
-#html_theme = 'modern5'
+# html_theme = 'modern5'
 html_theme = "runestone"
 
 # Theme-specific options, see docs
@@ -55,7 +55,7 @@ rss_generate_full_posts = False
 posts_per_page = 10
 
 # Character use to replace non-alphanumeric characters in slug
-slug_word_separator = '_'
+slug_word_separator = "_"
 
 # Set to page under /pages (eg. "about" for "pages/about.html")
 landing_page = None
@@ -68,31 +68,33 @@ first_page_title = None
 # **************************************************************
 
 # Add other Sphinx extensions here
-extensions = ['tinkerer.ext.blog', 'tinkerer.ext.disqus', 'sphinx_reredirects']
+extensions = ["tinkerer.ext.blog", "tinkerer.ext.disqus", "sphinx_reredirects"]
 
-redirects = {"pages/library": "https://runestone.academy/runestone/books"}
+redirects = {"pages/library": "https://runestone.academy/ns/books/index"}
 
 # Add other template paths here
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # Add other static paths here
-html_static_path = ['_static', tinkerer.paths.static]
+html_static_path = ["_static", tinkerer.paths.static]
 
 # Add other theme paths here
-html_theme_path = ['_themes', tinkerer.paths.themes]
+html_theme_path = ["_themes", tinkerer.paths.themes]
 
 # Add file patterns to exclude from build
-exclude_patterns = ['drafts/*', '_templates/*', 'README.rst', '.history/*']
+exclude_patterns = ["drafts/*", "_templates/*", "README.rst", ".history/*"]
 
 # Add templates to be rendered in sidebar here
 html_sidebars = {
-    '**': ['recent.html',
-           'runestone_academy.html',
-           'runestone_links.html',
-           'partners.html',
-           'searchbox.html',
-           'support.html',
-           'categories.html']
+    "**": [
+        "recent.html",
+        "runestone_academy.html",
+        "runestone_links.html",
+        "partners.html",
+        "searchbox.html",
+        "support.html",
+        "categories.html",
+    ]
 }
 
 # Add an index to the HTML documents.
@@ -109,4 +111,4 @@ version = tinkerer.__version__
 release = tinkerer.__version__
 html_title = project
 html_show_sourcelink = False
-html_add_permalinks = ''
+html_add_permalinks = ""
