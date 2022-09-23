@@ -7,8 +7,10 @@ The best thing to do is to create an issue on our `GitHub <http://github.com/Run
 
 Here are a few other places you can try:
 
-Join the conversation on Slack
-  `The quickest way to get help from a human <https://join.slack.com/t/runestoneteam/shared_invite/enQtODUwNDIwMzg5NDQxLTZlMjAzOTNlNzNlYTVjZDEyODI4ZTY1YjFjNTg3YTBiOWY2ODNlZTA4NWFiMjAxNzlkZGE1MmY0ZTQyY2E5Y2Q>`_
+Join the conversation on **Discord**.  Unfortunately Slack has implemented new policies that limit our history to just 90 days.  That means all of the knowledge shared last spring dissappeard over the summer.  Discord has no such limits.  `Join us on Discord <https://discord.gg/f3Qmbk9P3U>`_
+
+
+  I will be removing this link to slack in October 2022.  `The quickest way to get help from a human <https://join.slack.com/t/runestoneteam/shared_invite/enQtODUwNDIwMzg5NDQxLTZlMjAzOTNlNzNlYTVjZDEyODI4ZTY1YjFjNTg3YTBiOWY2ODNlZTA4NWFiMjAxNzlkZGE1MmY0ZTQyY2E5Y2Q>`_
 
 
 Runestone Google Groups for Books
