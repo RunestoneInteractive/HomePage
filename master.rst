@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2022/09/12/pose_grant
    2022/08/02/practical_db
    2022/07/02/webwork_hosting_fee
    2022/07/02/pretext_runestone_workshop
