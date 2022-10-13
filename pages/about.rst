@@ -1,6 +1,16 @@
 About
 =====
 
+The mission of Runestone Academy is to democratize textbooks for the 21st century.  To accomplish that mission we make high quality interactive textbooks available for free to all students.  In the 21st century it is silly to think of textbooks statically, so we make great interactive textbooks that actively engage students in their learning.  It would also be silly to ignore the rich data that an online textbook can provide to students, teachers, authors and researchers.  To support these different stakeholders we have created a Learning Engineering and Analytics Portal (LEAP).  That is quite a lot to digest so let us unpack that to see what it means in practical terms.
+
+* **Learning Engineering** is the systematic application of evidence-based principles and methods from educational technology and the learning sciences to create engaging and effective learning experiences, support the difficulties and challenges of learners as they learn, and come to better understand learners and learning.  Everything we do on Runestone Academy takes this engineering approach to continuous improvement.
+
+* **Analytics** As an instructor understaning your students, which of them are struggling, which of them are working hard, which of them are successful or not is key.  Runestone lets you quickly look at a dashboard of student progress to help you decide how to spend your classroom time most effectively.  As a  researcher or author you want to know what parts of your book are read the most, which questions are effective and which are duds that should be replaced or fixed to make them better.
+
+* **Portal**: Runestone Academy is a portal for online textbooks, students can interact with our books on any device for free.  Runestone Academy is a portal for teachers who want to create a course, grade their students work, and monitor their progress all in one place.  Runestone Acaademy is a portal for authors and researchers who want to invent new pedagogical strategies and try them out on lots of students while gaining access to anonymous information to help them better understand how students learn.
+
+We have partnered with the `PreTeXt project <https://pretextbook.org>`_ to provide an outstanding authoring tool to create interactive textbooks.  And not only interactive textbooks in HTML but highly accessible textbooks in many formats including ePub, PDF, and braille.
+
 The Team
 --------
 
@@ -12,11 +22,17 @@ There have been many contributors to Runestone over the years including the foll
 * Barbara Erickson, Associate Professor, University of Michigan
 * Bryan Jones, Assistant Professor, Mississippi State University
 * Mark Guzdial, Professor University of Michigan
+* Alex Jordan, Instructor Portland Community College
+* Andrew Scholer, Instructor Chemeketa Community College
+* Beryl Hoffman, Professor Elms College
+* Jan Pearce, Professor Berea College
+* Rob Beezer, Professor Emeritus University of Puget Sound
+* David Farmer, American Institute of Mathematics
 
 Many others have contributed by writing books, reporting bugs and submitting PRs to fix typos or bugs.
 
-Students
-~~~~~~~~
+Students (and former students)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Vipul Thakur, Masters - Georgia Tech
 * Isaac Dontje-Lindell - Luther College
@@ -27,7 +43,26 @@ Students
 * Tyler Conzett - Luther College
 * Hillary Gardner - Luther College
 * Iman Yeckehzaare - PhD Student, University of Michigan
+* Vincent Qiu - University of Michigan
+* Zihan Wu - University of Michigan
 
+Berea Summer Interns
+~~~~~~~~~~~~~~~~~~~~
+Summer of 2021
+
+* Ethan Campbell
+* Alejandro Ramos
+* Moise Dete-Kpinssounon
+* Kristiana Nakaj
+
+Summer of 2022
+
+* Bryar Frank
+* Micho Constantino
+* Diamon Yucas
+* Ala Qasem
+
+I would also like to thank the entire classes of students at Berea who adopted Runestone for their course in Open Source Software.
 
 The History
 -----------
