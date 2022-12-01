@@ -4,6 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2022/11/28/future_author
+   2022/10/25/instructor_survey_2022.rst
    2022/09/12/pose_grant
    2022/08/02/practical_db
    2022/07/02/webwork_hosting_fee

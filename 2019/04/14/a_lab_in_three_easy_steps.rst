@@ -134,7 +134,7 @@ OK, lets edit  `_sources/index.rst`   Initially it looks like this:
     You can add more stuff here.
 
 
-If you are not familiar with markup languages, this file should still be quite readable to you, and you can probably easily guess what most things do.  Runestone uses a markup language called restructuredText.  There is a very nice, short tutorial `here <http://getnikola.com/quickstart.html>`_.  But maybe the most important reminder is that restructuredText is like Python, **indentation matters**. 😀
+If you are not familiar with markup languages, this file should still be quite readable to you, and you can probably easily guess what most things do.  Runestone uses a markup language called restructuredText.  There is a very nice, short tutorial `here <http://getnikola.com/quickstart.html>`_.  But maybe the most important reminder is that restructuredText is like Python, **indentation matters**. 
 
 To give you an idea of what you see in the example above,  the section that starts with `.. toctree::` is called a directive and it creates a table of contents for you.  the `maxdepth` part sets the table of contents to show sections and subsections.  And the line with `overview.rst` indicates that it is a file that should be included in the overall  web page.  More on all of this later. Our first task is simply going to be to wipe everything out, and start over.   Using a plain text editor change index.rst to look like this:
 

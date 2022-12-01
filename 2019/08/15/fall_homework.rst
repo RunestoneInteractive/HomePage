@@ -30,7 +30,7 @@ The test you send me could be as simple as.
 
     <insert your name here>
 
-Thats it, we'll take it from there. You could also make Pull Request on github if you know how to do that. 😀😀😀
+Thats it, we'll take it from there. You could also make Pull Request on github if you know how to do that. 
 
 **You do not need to be an expert to do this.**  You could even make this an assignment for your more advanced students.  I promise I won’t yell at you if you leave some corner case uncovered.  Someone else will probably think of it.  I, and a couple of other folks will act as the editors to make sure we have good tests that cover a reasonable set of cases for each problem.
 
