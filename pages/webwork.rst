@@ -19,9 +19,10 @@ So for example there is no discount for ordering 4 courses in the Fall and then 
 But you are welcome to preorder courses for a future term/semester, as long as it's not more than 8 months in advance.
 Since this hosting service is only promised annually, we can't accept orders too far into the future.
 
+Starting in Fall 2023, a "course" covers up to 60 students. If a course surpasses that (and for each multiple of 60 it
+surpasses) it will incur an additional expense.
 
-There is no restriction on how many students you may enroll in one section.
-Runestone will only send an invoice once you are using the course(s) with actual students.
+Runestone will only send an invoice once you are using the course(s) with actual students and we count how many.
 
 Restrictions
 ------------
