@@ -13,14 +13,20 @@ Over the terms and semesters of 2022, Runestone's WeBWorK hosting service has su
 - 242 individual sections
 
 Our revenue from this service was $22,660. We spent it as follows:
+
 - $8140 for Alex and backup admin
 - $3260 for WeBWorK code developer
-- $2844 operational expenses
-- $2379 taxes
-- $3018 transferred to The WeBWorK Project
-- $3018 retained by Runestone
+- $3036 operational expenses
+- $0 taxes
+- $4472 transferred to The WeBWorK Project
+- $4472 retained by Runestone
 
-In last year's report I hoped these last numbers would raise to $4000 for 2022, but we fell short of that. We made no real effort to advertise this service this year, and that is evident in the low growth from 62 institutions to 65. In the coming year, we will make more of an effort to advertise the service. New features in new versions of WeBWorK (currently 2.17, and 2.18 by summer) shouls also help attract new users.
+In last year's report I hoped these last numbers would raise to $4000 for 2022.
+We reached that goal, but only because Runestone net income was so low this year
+that no taxes were due. By tax time for 2023, Runestone's non-profit status should
+be in place and there will also be no taxes from this revenue.
+
+We made no real effort to advertise this service this year, and that is evident in the low growth from 62 institutions to 65. In the coming year, we will make more of an effort to advertise the service. New features in new versions of WeBWorK (currently 2.17, and 2.18 by summer) should also help attract new users.
 
 
 New Server and Versions
