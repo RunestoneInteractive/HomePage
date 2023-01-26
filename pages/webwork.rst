@@ -1,4 +1,4 @@
-WebWorK
+WeBWorK
 =======
 
 Runestone Academy offers hosting for WeBWorK courses.
