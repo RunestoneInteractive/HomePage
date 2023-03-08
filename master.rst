@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2023/03/08/commercial_publishers
    2023/01/05/year_in_review_2022
    2022/12/28/annual_webwork_report.rst
    2022/11/28/future_author
