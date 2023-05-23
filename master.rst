@@ -4,6 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2023/05/22/top_10_reasons_to_host_on_runestone_academy
+   2023/03/12/runestone_at_sigcse_23
    2023/03/08/commercial_publishers
    2023/01/05/year_in_review_2022
    2022/12/28/annual_webwork_report.rst
