@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2023/06/13/prose_workshop_day_1
    2023/05/25/important_privacy_developments
    2023/05/22/top_10_reasons_to_host_on_runestone_academy
    2023/03/12/runestone_at_sigcse_23
