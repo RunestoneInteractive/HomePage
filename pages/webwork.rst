@@ -50,7 +50,7 @@ Course Request Form
 
 If you would like to request a WeBWorK course, please fill out
 `this Google form <https://docs.google.com/forms/d/e/1FAIpQLSdDjb9_L8hN3zaI-7cIvpbbt8YTLcjMwzn-vwq1DJ9SKU7V3g/viewform?usp=sf_link>`_.
-If you have a complicated request that the form doesn't cover, please contact alex@runestoneinteractive.com.
+If you have a complicated request that the form doesn't cover, please contact alex@runestone.academy.
 
 
 FAQ
@@ -76,11 +76,11 @@ FAQ
 
    #.  What kind of tech support can I expect?
 
-       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestoneinteractive.com>`_ to look into it and work on it. Response times will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
+       If something is not working with the WeBWorK course, you can contact `Alex <alex@runestone.academy>`_ to look into it and work on it. Response times will vary between immediate and 24 hours later. If something is not working with an individual WeBWorK problem, that is a different matter. See the next question.
 
    #.  Something is not working with a WeBWorK problem. Or it has an accessibility issue. Or I want to design a new WeBWorK problem that behaves in a certain way. If I am not able to work it out using the user forums and reference information at the wiki, what can I do?
 
-       `Alex <alex@runestoneinteractive.com>`_ may be available to debug an existing WeBWorK problem or design a template problem from scratch. This depends on how busy life is at that time. But there is always the WeBWorK-using community mentioned above to support you.
+       `Alex <alex@runestone.academy>`_ may be available to debug an existing WeBWorK problem or design a template problem from scratch. This depends on how busy life is at that time. But there is always the WeBWorK-using community mentioned above to support you.
 
    #.  What if I invest my time in this service, setting up some WeBWorK courses, but then I have to leave? For example, if this service goes away or it becomes a service with a fee that I am not able to pay. Will I be able to keep my content?
 
