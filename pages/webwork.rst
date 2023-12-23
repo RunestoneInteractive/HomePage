@@ -40,8 +40,9 @@ for too much activity, and we reserve the right to close access to your course u
 Demonstration Courses
 ---------------------
 
-Please visit `the Runestone WeBWorK site <https://webwork.runestone.academy/webwork2/>`_
+Please visit `the Runestone WeBWorK site <https://webwork-hosting.runestone.academy/webwork2/>`_
 to visit a few demonstration courses, where you may log in as a guest and try exercises.
+To log in as guest in a course, click the "Guest Login" button.
 
 
 Course Request Form
