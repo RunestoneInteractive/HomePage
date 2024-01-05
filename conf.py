@@ -25,7 +25,7 @@ author = "Brad Miller"
 copyright = "2022, " + author
 
 # Change this to your blog root URL (required for RSS feed)
-website = "http://www.runestoneinteractive.com/"
+website = "https://blog.runestone.academy"
 
 # **************************************************************
 # More tweaks you can do
@@ -63,6 +63,8 @@ landing_page = None
 # Set to override the default name of the first page ("Home")
 first_page_title = None
 
+first_page_link = "https://landing.runestone.academy"
+
 # **************************************************************
 # Edit lines below to further customize Sphinx build
 # **************************************************************
@@ -70,7 +72,10 @@ first_page_title = None
 # Add other Sphinx extensions here
 extensions = ["tinkerer.ext.blog", "tinkerer.ext.disqus", "sphinx_reredirects"]
 
-redirects = {"pages/library": "https://runestone.academy/ns/books/index"}
+redirects = {
+    "pages/library": "https://runestone.academy/ns/books/index",
+    "pages/about": "https://landing.runestone.academy",
+}
 
 # Add other template paths here
 templates_path = ["_templates"]

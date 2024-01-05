@@ -4,6 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2024/01/04/problem_solving_with_algorithms_and_data_structures
+   2023/06/18/prose_workshop_report
    2023/06/13/prose_workshop_day_1
    2023/05/25/important_privacy_developments
    2023/05/22/top_10_reasons_to_host_on_runestone_academy
