@@ -15,10 +15,10 @@ Good open source software is / does / can (roughly in order):
 #. a lot out of the box, so you don't have to:
 #. constantly reinvent the wheel to do simple or common things
 #. interoperable, flexible, extensible
-has a core user story in mind (ie: it appeals extremely well to a couple of use cases, while enabling many others)
+#. Has a core user story in mind (ie: it appeals extremely well to a couple of use cases, while enabling many others)
 #. continuously improved and updated
 
-I think that's a great list, and I think that the Runestone software ticks a lot of those boxes, but not the first one, and I've heard from many of you, not not the third one.  It certainly is the fifth one 😳, and I think sixth through tenth follow.  The good news is that principles 1 and 3 are closely related to my touchstone word for the year.
+I think that's a great list, and I think that the Runestone software ticks a lot of those boxes, but not the first one, and I've heard from many of you, not not the third one.  It certainly is the fifth one, and I think sixth through tenth follow.  The good news is that principles 1 and 3 are closely related to my touchstone word for the year.
 
 Runestone has been around since 2011, and it has grown organically over the years.  Myself, students, other contributors added features as I've needed them, and as others have asked for them.  I've tried to keep the code clean, and the architecture flexible, but I think it's time to take a step back and look at the big picture.  I think it's time to simplify.
 
