@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2024/01/07/roadmap_2024
    2024/01/04/problem_solving_with_algorithms_and_data_structures
    2023/06/18/prose_workshop_report
    2023/06/13/prose_workshop_day_1
