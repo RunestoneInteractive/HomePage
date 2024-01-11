@@ -5,18 +5,20 @@ A lot of the podcasts I listen to, and quite a few of the blogs I read, encourag
 
 My decision to choose **simplicity** was reinforced by a recent blog post by Matt Mullenweg, the CEO of Automattic, the company behind WordPress.  And a second by Terry Sutton, a front end developer.  In `Terry's post <https://terrysutton.dev/blog/open-source-state-of-mind>`_ he says:
 
-Good open source software is / does / can (roughly in order):
+.. pull-quote::
 
-#. easy to install and setup, for free, both locally and on my own server
-#. powerful, capable
-#. make easy things easy
-#. make hard things possible
-#. opinionated, and so you get:
-#. a lot out of the box, so you don't have to:
-#. constantly reinvent the wheel to do simple or common things
-#. interoperable, flexible, extensible
-#. Has a core user story in mind (ie: it appeals extremely well to a couple of use cases, while enabling many others)
-#. continuously improved and updated
+    Good open source software is / does / can (roughly in order):
+
+    #. easy to install and setup, for free, both locally and on my own server
+    #. powerful, capable
+    #. make easy things easy
+    #. make hard things possible
+    #. opinionated, and so you get:
+    #. a lot out of the box, so you don't have to:
+    #. constantly reinvent the wheel to do simple or common things
+    #. interoperable, flexible, extensible
+    #. Has a core user story in mind (ie: it appeals extremely well to a couple of use cases, while enabling many others)
+    #. continuously improved and updated
 
 I think that's a great list, and I think that the Runestone software ticks a lot of those boxes, but not the first one, and I've heard from many of you, not not the third one.  It certainly is the fifth one, and I think sixth through tenth follow.  The good news is that principles 1 and 3 are closely related to my touchstone word for the year.
 
@@ -40,7 +42,8 @@ I'm not going to go into details here, but I'll post about progress periodically
 
 
 
+
 .. author:: default
-.. categories:: none
+.. categories:: Development
 .. tags:: none
 .. comments::
