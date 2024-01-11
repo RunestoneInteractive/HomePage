@@ -33,6 +33,7 @@ Here are some some of the things I'm targeting especially for the first half of 
 * Make the developer experience better for contributors
 * We are going to have to bite the bullet on LTI 1.3 support soon! People are deprecating 1.1 as we speak.
 
+Please note, these are **Goals** not *guarantees.*  I had many features I wanted to implement in the Fall of 2023, but most of my time was eaten up answering questions from users, and dealing with growth and scaling issues.  I'm hoping that by setting these goals, and by sharing them with you, I'll be able to stay focused on them.
 
 I'm not going to go into details here, but I'll post about progress periodically.  If you want to get into the details, it is all on `Github <https://github.com/RunestoneInteractive/rs/projects?query=is%3Aopen>`_ in the form of six projects (Sort them by name).  Under the hood the main goal is to get all of the instructor facing pages ported to the same underlying technology we use for the assignment and book serving pages.  This will make it easier to maintain, and easier to extend.  It will also make it easier to add new features, and to make the user experience more consistent.
 
