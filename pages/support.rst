@@ -34,7 +34,7 @@ If you are interested in helping with development.
 In the Fediverse
 
 * Follow `bnmnetp@fosstodon.org <https://fosstodon.org/@bnmnetp>`_
-* Or `@bnmnet@micro.blog` - Activity Pub
+* Or ``@bnmnet@micro.blog`` - Activity Pub
 
 
 Check the FAQ
