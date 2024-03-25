@@ -1,7 +1,7 @@
 Roadmap 2024
 ============
 
-A lot of the podcasts I listen to, and quite a few of the blogs I read, encourage you to pick a touchstone word for the year.  I've never done that before, but I'm going to try it this year.  My word for 2021 is "Simplicity".  I'm going to try to use this word to guide my decisions and actions for the year, both in my personal life and in my professional life.
+A lot of the podcasts I listen to, and quite a few of the blogs I read, encourage you to pick a touchstone word for the year.  I've never done that before, but I'm going to try it this year.  My word for 2024 is "Simplicity".  I'm going to try to use this word to guide my decisions and actions for the year, both in my personal life and in my professional life.
 
 My decision to choose **simplicity** was reinforced by a recent blog post by Matt Mullenweg, the CEO of Automattic, the company behind WordPress.  And a second by Terry Sutton, a front end developer.  In `Terry's post <https://terrysutton.dev/blog/open-source-state-of-mind>`_ he says:
 
