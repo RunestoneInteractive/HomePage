@@ -200,7 +200,7 @@ If you have some materials you have written using the Runestone
 Interactive Tools, please contact us and let us know about it.
 
 Learn more about using one of our books in your own course
-`In our Instructor Guide <https://runestone.academy/runestone/static/instructorguide/index.html>`_
+`In our Instructor Guide <https://guide.runestone.academy>`_
 
 
 If you are interested in getting started writing your own Runestone book check out our `Authors Guide <https://runestone.academy/runestone/static/authorguide/index.html>`_

@@ -54,7 +54,7 @@ How do I learn more about the instructor interface
 
 I have made a `very informal set of videos <https://www.youtube.com/channel/UCAfQvSLv5senKZHfaycIz8w>`_ for just this purpose.
 
-We also have a nice new `Instructor Guide <https://runestone.academy/ns/books/published/instructorguide/frontmatter-1.html?mode=browsing>`_
+We also have a nice new `Instructor Guide <https://guide.runestone.academy>`_
 
 
 Help!  I cannot log in.  Every time I try to log in, I have to reset my password!
