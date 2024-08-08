@@ -45,7 +45,7 @@ How do I become an instructor?
 
 First lets clear up a couple of misconcptions.  There is no way for me to know, just by your email address that you are an instructor.  You could be anyone.  So, there is no such thing as an instructor account.
 
-You become an instructor by creating a course. This gives you the privileges associated with being an instructor but ONLY for that course and any other course(s) you create.  You are not an instructor for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://runestone.academy/ns/books/published/instructorguide/frontmatter-1.html?mode=browsing>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
+You become an instructor by creating a course. This gives you the privileges associated with being an instructor but ONLY for that course and any other course(s) you create.  You are not an instructor for any of the open courses or anyone else's course.  There is a really nice video to help you get started in the `Instructors Guide <https://guide.runestone.academy>`_  Please check it out as it will answer many other questions and help you make the most of Runestone.
 
 
 
