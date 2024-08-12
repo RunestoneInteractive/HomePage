@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2024/08/12/summer_developments
    2024/06/11/first_nsf_award
    2024/03/24/sigcse_2024
    2024/01/07/roadmap_2024
