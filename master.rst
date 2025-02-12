@@ -4,6 +4,11 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2025/02/12/distinguished_member
+   2024/09/18/ddos_update
+   2024/09/10/distributed_denial_of_service_2024
+   2024/08/16/runestone_origins
+   2024/08/12/we_are_hiring
    2024/08/12/summer_developments
    2024/06/11/first_nsf_award
    2024/03/24/sigcse_2024
