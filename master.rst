@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2025/06/14/mid_june_update
    2025/05/28/summer_roadmap
    2025/02/12/distinguished_member
    2024/09/18/ddos_update
