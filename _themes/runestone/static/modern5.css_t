@@ -58,7 +58,7 @@ div.archive_link { padding-top: 10px; text-align: center; }
 footer { padding: 5px 20px; }
 
 @media only screen and (min-width: 480px) {
-    header { padding: 40px 0; 
+    header { padding: 40px 0;
         min-height: 150px;
     }
     header h1 { padding: 0 40px; }
@@ -168,7 +168,7 @@ aside.sidebar { border-top: 1px solid #cfd5da; }
     div#container {
         -moz-box-shadow:    0 0 10px 5px #011019;
         -webkit-box-shadow: 0 0 10px 5px #011019;
-        box-shadow:         0 0 10px 5px #011019; 
+        box-shadow:         0 0 10px 5px #011019;
     }
 
     article { border-left: 1px solid #cfd5da; border-right: 1px solid #cfd5da; }
@@ -206,3 +206,5 @@ div.year_separator { width: 100%; border-top: 1px dotted {{ theme_color_light }}
 
 /* Sidebar */
 aside.sidebar h1 { border-bottom: 1px solid {{ theme_color_light }}; box-shadow: {{ paper_color }} 0 1px 0 0; }
+
+.attention { background-color: aliceblue; border-radius: 10px;}
