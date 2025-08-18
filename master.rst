@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2025/08/17/fall_2025_transitions
    2025/08/01/images_for_macs_and_linux
    2025/07/19/mid_july_update
    2025/06/14/mid_june_update
