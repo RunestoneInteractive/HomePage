@@ -4,6 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2025/10/10/mid_term_updates
+   2025/08/22/genaiconsortium
    2025/08/17/fall_2025_transitions
    2025/08/01/images_for_macs_and_linux
    2025/07/19/mid_july_update
