@@ -6,7 +6,8 @@ the students who need us.  But sometimes Government regulations or institutional
 For those of you who want to run your own server, we have created an easy install script that will set up a Runestone server on your machine.
 This script will install all the necessary dependencies and configure the server for you.
 
-To use the easy install script, copy and past the following command into your terminal:
+To use the easy install script, copy and paste the following command into your terminal:
+
 .. code-block:: bash
 
    bash <(curl -fsSL https://raw.githubusercontent.com/RunestoneInteractive/rs/main/init_runestone.sh)
@@ -43,11 +44,12 @@ Keeping up to date
 
 If you choose to run your own server, it is important to keep it up to date.  We are constantly making improvements and adding new features to the software, and it is important to keep your server up to date in order to take advantage of these improvements.  We recommend that you check for updates regularly and apply them as soon as possible.  You can check for updates by running the following command in your terminal:
 
-```bash
-cd /wherever/you/installed/runestone
-docker compose pull
-docker compose stop && docker compose up -d
-```
+.. code-block::  bash
+
+    cd /wherever/you/installed/runestone
+    docker compose pull
+    docker compose stop && docker compose up -d
+
 
 Occasionally it may be necessary to run a database migration when we make changes to the database schema.  If this is the case, we will provide instructions on how to run the migration.  We will also provide instructions on how to roll back the migration if something goes wrong.  We recommend that you back up your database before applying any updates, just in case something goes wrong.  Most updates should be seamless, but occasionally we add more data to the database in the form of new columns or new tables.  These migrations will not result in the loss of any data, but it is always a good idea to have a backup just in case something goes wrong.
 
@@ -59,7 +61,7 @@ As this is a new feature, we would love to hear your feedback on the easy instal
 Join our Community
 -----------------
 
-As always, our mission is to provide free and open educational resources to everyone, and we are committed to supporting our users regardless of how they choose to use our software.  If you have any questions or need help with anything, please don't hesitate to reach out to us on our `public forums <https://discord.gg/f3Qmbk9P3U>`_ or hang out with us on zoom!  Our weekly schedule is `available here <https://mathtech.org/events/>`_. And you can always drop in on our zoom `during one of the scheduled times here <https://mathtech.org/dropin>`_. We are always happy to help and we welcome your feedback and suggestions and just being a part of our community.  It is amazing what can happen when people come together face to face and share their ideas and experiences.  We are grateful for everyone who has contributed to the project and we look forward to continuing to work together to make education more accessible and engaging for everyone.  Thank you for being a part of our community!
+As always, our mission is to provide free and open educational resources to everyone! We are committed to supporting our students and instructors regardless of how they choose to use our software.  If you have any questions or need help with anything, please don't hesitate to reach out to us on our `public forums <https://discord.gg/f3Qmbk9P3U>`_ or hang out with us on zoom!  Our weekly zoom schedule is `available here <https://mathtech.org/events/>`_. And you can always drop in on our zoom `during one of the scheduled times here <https://mathtech.org/dropin>`_. We are always happy to help and we welcome your feedback and suggestions and just being a part of our community.  It is amazing what can happen when people come together face to face and share their ideas and experiences.  We are grateful for everyone who has contributed to the project and we look forward to continuing to work together to make education more accessible and engaging for everyone.  Thank you for being a part of our community!
 
 Brad
 

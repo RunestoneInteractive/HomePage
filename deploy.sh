@@ -6,4 +6,6 @@ if [ -z "VIRTUAL_ENV" ]; then
 fi
 
 tinker --build
-rsync -avz -e 'ssh -i /home/bmiller/.ssh/id_rsa' blog/html/ bnmnetp:/var/www/runestone/html/
+python3 make_sitemap.py
+cp sitemap.xml blog/html/
+rsync -avz -e 'ssh -i /Users/bmiller/.ssh/id_rsa' blog/html/ bnmnetp:/var/www/runestone/html/
