@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2026/04/22/a_farewell_to_rst
    2026/03/16/easy_install
    2025/10/10/mid_term_updates
    2025/08/22/genaiconsortium
