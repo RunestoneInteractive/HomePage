@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+#
+# Create a new blog post bundle dated today.
+#
+#   ./newpost <slug> ["Optional Title"]
+#
+# Examples:
+#   ./newpost summer_update
+#   ./newpost summer_update "A Big Summer Update"
+#
+# Produces content/posts/<year>/<mm-dd-slug>/index.md (via the posts archetype),
+# published at /<year>/<mm>/<dd>/<slug>.html. Opens it in $EDITOR if one is set.
+
+set -euo pipefail
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <slug> [\"Optional Title\"]" >&2
+  exit 1
+fi
+
+slug="$1"
+cd "$(dirname "$0")"
+
+y=$(date +%Y)
+md=$(date +%m-%d)
+path="content/posts/$y/$md-$slug/index.md"
+
+if [ -e "$path" ]; then
+  echo "Already exists: $path" >&2
+  exit 1
+fi
+
+hugo new "$path" >/dev/null
+
+# Optional title override (the archetype otherwise title-cases the slug).
+if [ $# -ge 2 ]; then
+  TITLE="$2" python3 - "$path" <<'PY'
+import os, re, sys
+p = sys.argv[1]
+t = open(p, encoding="utf-8").read()
+title = os.environ["TITLE"].replace('\\', '\\\\').replace('"', '\\"')
+t = re.sub(r'^title:.*$', f'title: "{title}"', t, count=1, flags=re.M)
+open(p, "w", encoding="utf-8").write(t)
+PY
+fi
+
+echo "Created $path"
+if [ -n "${EDITOR:-}" ]; then
+  "$EDITOR" "$path"
+fi
