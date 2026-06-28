@@ -1,2 +1,0 @@
-Sphinx>=2.4
-git+https://github.com/bnmnetp/tinkerer.git
