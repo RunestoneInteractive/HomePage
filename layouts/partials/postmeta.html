@@ -1,0 +1,8 @@
+{{- $authors := .Params.author }}
+{{- if not $authors }}{{ $authors = slice .Site.Params.author }}{{ end }}
+<div class="postmeta">
+  <span>Posted by {{ delimit $authors ", " }}</span>
+  {{- with .Params.categories }} in
+    {{- range $i, $c := . }}{{ if $i }},{{ end }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}.html">{{ . }}</a>{{ end }}
+  {{- end }}
+</div>

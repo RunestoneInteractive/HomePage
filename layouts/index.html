@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article role="article">
+  {{- $posts := where .Site.RegularPages "Section" "posts" }}
+  {{- $paginator := .Paginate $posts }}
+
+  <ul class="related clearfix">
+    <li class="left">{{ if $paginator.HasPrev }}&laquo; <a href="{{ $paginator.Prev.URL }}">Newer</a>{{ end }}</li>
+    <li class="right">{{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Older</a> &raquo;{{ end }}</li>
+  </ul>
+
+  {{- range $i, $p := $paginator.Pages }}
+  {{- if $i }}<div class="separator post_separator"></div>{{ end }}
+  <div class="timestamp postmeta"><span>{{ $p.Date.Format "January 2, 2006" }}</span></div>
+  <div class="section">
+    <h1><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h1>
+    {{ $p.Content }}
+    {{ partial "postmeta.html" $p }}
+  </div>
+  {{- end }}
+
+  <ul class="related clearfix">
+    <li class="left">{{ if $paginator.HasPrev }}&laquo; <a href="{{ $paginator.Prev.URL }}">Newer</a>{{ end }}</li>
+    <li class="right">{{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Older</a> &raquo;{{ end }}</li>
+  </ul>
+</article>
+{{ end }}

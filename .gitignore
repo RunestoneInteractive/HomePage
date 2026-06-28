@@ -1,3 +1,6 @@
+public/
+resources/
+.hugo_build.lock
 blog/
 .vscode
 *.pyc
@@ -6,3 +9,5 @@ blog/
 _build
 .DS_Store
 /.nova
+.venv
+dot.venv

@@ -1,0 +1,26 @@
+Grader and Login Updates
+========================
+
+Welcome to summer, at least for many of you!  This week we have a couple of updates that we would love feedback on. First, we have rewritten the grader, similar to the way we rewrote the assignment builder. We still need to add support for regrading an assignment for multiple students at once.  Our focus has been on manually grading and reviewing individual questions.  You can get to the new grader from the assignment builder by clicking on the "Grade" button for an assignment.  You can also use this `URL directly:  <https://runestone.academy/assignment/instructor/grader>`_.
+
+Secondly we have also started work on a new login/registration system.  The new login system is backward compatible with the old system, but we are hoping to get feedback on the new look and flow.  You can try it out at `logging in here <https://runestone.academy/admin/auth/login>`_.  Or substitute ``register`` for ``login`` in the URL to see the new registration page.  A new change course page is also available at `My Courses <https://runestone.academy/admin/auth/my_courses>`_.  This will give us a single login and registration system instead of the current mix of old and new pages. It should also eliminate issues where you appear logged in on one page but not another.
+
+Thirdly we have ongoing work on the peer instruction.  It is already `here <https://runestone.academy/assignment/peer/instructor>`_  I have an open PR that I am looking at this week that fixes some bugs and adds the async peer interface.
+
+Finally, we have been working on a major refactoring of the code base.  The goal is to make it easier to add new features and maintain the system going forward.  We are nearly at the point where we can retire the code based on the initial web framework the project was built on in 2011.  Not every feature is going to make the transition. But with all of the new services being based on a modern web framework, and having factored out the database access code into its own API, we are in a much better position to add new features and maintain the system going forward. Hopefully this will also make it easier for others to contribute to the project.
+We are nearly at the point where we can retire the code based on the initial web framework the project was built on in 2011.  Not every feature is going to make the transition. But with all of the new services being based on a modern web framework, and having factored out the database access code into its own API, we are in a much better position to add new features and maintain the system going forward. Hopefully this will also make it easier for others to contribute to the project.
+
+We will continue to work on these and make updates to the gradebook as well.  Once all of these features are done and well tested, we will begin to make them the default, and eventually remove the old code.  We will be sure to give plenty of notice before we do that, but we would love to get feedback on the new features as soon as possible.  The goal is to have the old code removed by the end of the summer so we can start the school year with a clean slate.
+
+We are also looking at improving the overall consistency of the user interface, as the system currently contains at least three distinct page styles. For student-facing pages, we want the experience to feel cohesive rather than like a collection of separate systems. We are also reviewing the instructor-facing pages with the same goal in mind, and we would welcome feedback there as well.
+
+Some of the features we are considering eliminating, or replacing include:
+
+* The practice feature, based on spaced repetition, which is not widely used (although very effective) and is not well integrated with the rest of the system.  We are considering replacing it with a new feature that would use AI models to generate personalized practice questions for students based on their performance in the course.  This is still in the early stages of development, but we would love to get feedback on this idea.
+* The current student progress feedback page is another feature we are evaluating. Usage appears to be low, and some of the functionality added to the new grading page may ultimately replace it. Longer term, we would like to provide instructors with better insight into student learning: which concepts students are struggling with, which concepts they have mastered, and where intervention may help most. We are exploring ways to present this information more effectively than simple assignment or quiz scores, and we would love feedback on what would be most useful to you.
+
+
+.. author:: default
+.. categories:: none
+.. tags:: none
+.. comments::

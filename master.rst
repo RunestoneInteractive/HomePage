@@ -4,6 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2026/06/28/first_time_contributors
+   2026/05/25/grader_and_login_updates
    2026/05/12/runestone_guiding_principles
    2026/04/22/a_farewell_to_rst
    2026/03/16/easy_install

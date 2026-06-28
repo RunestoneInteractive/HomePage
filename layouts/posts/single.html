@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article role="article">
+  {{- /* left = newer post («), right = older post (») — matches the old Tinkerer order */}}
+  {{- $newer := .NextInSection }}
+  {{- $older := .PrevInSection }}
+  <ul class="related clearfix">
+    <li class="left">{{ with $newer }}&laquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</li>
+    <li class="right">{{ with $older }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &raquo;{{ end }}</li>
+  </ul>
+
+  <div class="timestamp postmeta"><span>{{ .Date.Format "January 2, 2006" }}</span></div>
+  <div class="section">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ partial "postmeta.html" . }}
+  </div>
+
+  <ul class="related clearfix">
+    <li class="left">{{ with $newer }}&laquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</li>
+    <li class="right">{{ with $older }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &raquo;{{ end }}</li>
+  </ul>
+</article>
+{{ end }}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article role="article">
+  <div class="section">
+    <h1>Category: {{ .Title }}</h1>
+    <ul class="archive">
+      {{- range .Pages }}
+      <li><span class="timestamp">{{ .Date.Format "Jan 2, 2006" }}</span> &mdash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    </ul>
+  </div>
+</article>
+{{ end }}

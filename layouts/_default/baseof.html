@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="viewport" content="width=device-width">
+    {{- with .Params.redirect }}
+    <meta http-equiv="refresh" content="0; url={{ . }}">
+    {{- end }}
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}</title>
+    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/css/sphinx.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/css/modern5.css" type="text/css">
+    <link rel="stylesheet" href="/css/pygments.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/site.css" type="text/css">
+    <link rel="shortcut icon" href="/_static/runestone.ico">
+    {{- /* rss.html = legacy feed URL (deploy.sh copies rss.xml -> rss.html); rss.xml for modern readers */}}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.html">
+    {{- with site.Config.Services.GoogleAnalytics.ID }}{{ template "_internal/google_analytics.html" $ }}{{ end }}
+  </head>
+  <body role="document">
+    <div id="container">
+      {{ partial "header.html" . }}
+      {{ partial "nav.html" . }}
+      <div class="main-container" role="main"><div class="main wrapper body clearfix">
+        {{ block "main" . }}{{ end }}
+        {{ partial "sidebar.html" . }}
+      </div></div>
+      {{ partial "footer.html" . }}
+    </div>
+    <script>
+      // Keep the article at least as tall as the sidebar (replaces the old jQuery snippet).
+      window.addEventListener("DOMContentLoaded", function () {
+        var article = document.querySelector("article");
+        var sidebar = document.querySelector("aside.sidebar");
+        if (article && sidebar && sidebar.offsetHeight > article.offsetHeight) {
+          article.style.minHeight = sidebar.offsetHeight + "px";
+        }
+      });
+    </script>
+  </body>
+</html>

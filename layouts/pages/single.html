@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article role="article">
+  <div class="section">
+    {{- if .Params.redirect }}
+    <p>Redirecting to <a href="{{ .Params.redirect }}">{{ .Params.redirect }}</a> &hellip;</p>
+    {{- else }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{- end }}
+  </div>
+</article>
+{{ end }}

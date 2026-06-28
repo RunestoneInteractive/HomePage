@@ -1,0 +1,61 @@
+baseURL = "https://blog.runestone.academy/"
+title = "Runestone Academy"
+
+# Emit name.html instead of name/index.html so URLs match the old Tinkerer site.
+uglyURLs = true
+
+# Drop a GA4 measurement id here (G-XXXXXXX) to enable analytics.
+# NOTE: the old site used Universal Analytics (UA-29883683-1), which Google
+# stopped processing in July 2023, so it is intentionally left blank.
+googleAnalytics = ""
+
+# Disqus is intentionally removed (no comments).
+
+[languages.en]
+  locale = "en-us"
+
+[params]
+  tagline = "Democratizing textbooks for the 21st century"
+  description = "Interactive Textbooks for Computer Science, Data Science and more"
+  author = "Brad Miller"
+  landing = "https://landing.runestone.academy"
+
+# Preserve the old date-based URLs exactly, e.g.
+#   /2026/06/28/first_time_contributors.html
+#   /pages/about.html
+[permalinks]
+  posts = "/:year/:month/:day/:slug"
+  pages = "/pages/:slug"
+
+# Only categories were used in practice (tags were effectively unused).
+[taxonomies]
+  category = "categories"
+
+[pagination]
+  pagerSize = 10
+
+# Home emits the page, the RSS feed (as rss.html, see below) and the
+# search index (index.json).
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+# The legacy feed lived at /rss.html. Hugo writes the feed to /rss.xml (a
+# ".html" media-type suffix collides with text/html), so deploy.sh copies
+# rss.xml -> rss.html after the build and the feed is advertised at /rss.html
+# for subscriber continuity.
+[outputFormats.RSS]
+  baseName = "rss"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true            # posts contain inline HTML
+  [markup.highlight]
+    style = "native"         # matches the old Pygments "native" style
+    noClasses = true
+    lineNos = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3

@@ -1,0 +1,48 @@
+{{ define "main" }}
+<article role="article">
+  <div class="section">
+    <h1>Search</h1>
+    <form action="/search.html" method="get">
+      <input type="text" id="q" name="q" style="padding:4px;width:60%" />
+      <button type="submit"><span class="fa fa-search"></span> Search</button>
+    </form>
+    <div id="results"><p>Loading search index&hellip;</p></div>
+  </div>
+</article>
+
+<script>
+(function () {
+  function param(name) {
+    var m = new RegExp("[?&]" + name + "=([^&]*)").exec(window.location.search);
+    return m ? decodeURIComponent(m[1].replace(/\+/g, " ")) : "";
+  }
+  var q = param("q");
+  var input = document.getElementById("q");
+  var out = document.getElementById("results");
+  input.value = q;
+
+  fetch("/index.json")
+    .then(function (r) { return r.json(); })
+    .then(function (docs) {
+      function render(query) {
+        query = (query || "").trim().toLowerCase();
+        if (!query) { out.innerHTML = "<p>Type a search term above.</p>"; return; }
+        var terms = query.split(/\s+/);
+        var hits = docs.filter(function (d) {
+          var hay = (d.title + " " + d.content).toLowerCase();
+          return terms.every(function (t) { return hay.indexOf(t) !== -1; });
+        });
+        if (!hits.length) { out.innerHTML = "<p>No results for <strong>" + query + "</strong>.</p>"; return; }
+        var html = "<p>" + hits.length + " result" + (hits.length > 1 ? "s" : "") + " for <strong>" + query + "</strong>:</p><ul class='archive'>";
+        hits.forEach(function (d) {
+          html += "<li><span class='timestamp'>" + d.date + "</span> &mdash; <a href='" + d.url + "'>" + d.title + "</a></li>";
+        });
+        out.innerHTML = html + "</ul>";
+      }
+      render(q);
+      input.addEventListener("input", function () { render(input.value); });
+    })
+    .catch(function () { out.innerHTML = "<p>Could not load the search index.</p>"; });
+})();
+</script>
+{{ end }}

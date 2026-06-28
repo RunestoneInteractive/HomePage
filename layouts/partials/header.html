@@ -1,0 +1,7 @@
+<header role="banner">
+  <hgroup>
+    <a href="{{ .Site.Params.landing }}"><img src="/_static/logo_small.png" height="150" align="right" style="margin-right: 5%"></a>
+    <h1 style="display: inline-block"><a href="/">{{ .Site.Title }}</a></h1>
+    {{- with .Site.Params.tagline }}<h2>{{ . }}</h2>{{ end }}
+  </hgroup>
+</header>

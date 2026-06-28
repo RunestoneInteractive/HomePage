@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article role="article">
+  <div class="section">
+    <h1>{{ if .IsHome }}Archive{{ else }}{{ .Title }}{{ end }}</h1>
+    <ul class="archive">
+      {{- range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+      <li><strong>{{ .Key }}</strong>
+        <ul>
+          {{- range .Pages }}
+          <li><span class="timestamp">{{ .Date.Format "Jan 2" }}</span> &mdash; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{- end }}
+        </ul>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</article>
+{{ end }}

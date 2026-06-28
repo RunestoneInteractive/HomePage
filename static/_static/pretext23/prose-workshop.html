@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2023-06-09T10:34:52-07:00       *-->
+<!--*   A recent stable commit (2022-07-01):   *-->
+<!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The State of PreTeXt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/theme/solarized.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/plugin/math/math.js"></script><style>
+ul {
+  display: block !important;
+}
+.reveal img {
+  border: 0.5px !important;
+  border-radius: 2px 10px 2px;
+  padding: 4px;
+}
+.definition,.theorem,.activity {
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 10px 2px;
+  padding: 1%;
+  margin-bottom: 2em;
+}
+.definition {
+  background: #00608010;
+}
+.theorem {
+  background: #ff000010;
+}
+.proof {
+  background: #ffffff90;
+}
+.activity {
+  background: #60800010;
+}
+dfn {
+  font-weight: bold;
+}
+.pretext-content ol.no-marker,
+.pretext-content ul.no-marker,
+.pretext-content li.no-marker {
+    list-style-type: none;
+}
+
+.pretext-content ol.decimal {
+    list-style-type: decimal;
+}
+.pretext-content ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+.pretext-content ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+.pretext-content ol.lower-roman {
+    list-style-type: lower-roman;
+}
+.pretext-content ol.upper-roman {
+    list-style-type: upper-roman;
+}
+.pretext-content ul.disc {
+    list-style-type: disc;
+}
+.pretext-content ul.square {
+    list-style-type: square;
+}
+.pretext-content ul.circle {
+    list-style-type: circle;
+}
+.pretext-content ol.no-marker,
+.pretext-content ul.no-marker {
+    list-style-type: none;
+}
+.pretext-content .cols1 li,
+.pretext-content .cols2 li,
+.pretext-content .cols3 li,
+.pretext-content .cols4 li,
+.pretext-content .cols5 li,
+.pretext-content .cols6 li {
+    float: left;
+    padding-right:2em;
+}
+          </style>
+</head>
+<body><div class="reveal pretext-content">
+<div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="slides">
+<section><section><h1>The State of PreTeXt</h1>
+<table>
+<tr><th align="center" style="border-bottom: 0px;">Robert A. Beezer</th></tr>
+<tr><td align="center" style="border-bottom: 0px;">University of Puget Sound</td></tr>
+<tr><td align="center"></td></tr>
+</table>
+<h4>PROSE Workshop, U of South Alabama</h4>
+<h4><div class="date">June 12, 2023</div></h4></section></section><section><h3>PreTeXt’s Goals</h3>
+<div align="left"> <ul class="disc">
+<li>Increase the supply of openly-licensed material by making it easy for authors to create quality projects</li>
+<li>Encapsulate publishers’ knowledge and technical knowledge in software</li>
+<li>Provide a future-proof, solid, technical foundation for an author’s hard work.  (Shared freely!)</li>
+</ul>
+</div></section><section><h3>A Short Pre-History</h3>
+<div align="left"> <ul class="disc">
+<li>2004: Started writing <span class="booktitle">A First Course in Linear Algebra</span> (FCLA)</li>
+<li>2006: Released v1.0 of FCLA.  <span class="latex-logo">L<span class="A">a</span>T<span class="E">e</span>X</span> with lots of structure.  A book as software</li>
+<li>2008: <code class="code-inline tex2jax_ignore">tex4ht</code> converts to a version powered by <code class="code-inline tex2jax_ignore">jsMath</code>.  Becomes EPUB test case</li>
+<li>2010: Chris Godsil authors books as raw HTML, duplicating MathJax configuration for each new page/division</li>
+<li>2010-03-25: experiment with examinations in XML, converted via XSL to <span class="latex-logo">L<span class="A">a</span>T<span class="E">e</span>X</span>
+</li>
+<li>2011-09-28: David Farmer converts FCLA to HTML, with knowls</li>
+<li>2013-05-20: Shuttleworth Flash Grant awarded for MathBook XML (MBX)</li>
+</ul>
+</div></section><section><h3>What is PreTeXt?</h3>
+<div align="left"> <ul class="disc">
+<li class="fragment">A language.  With a rigorous compact description (the schema)</li>
+<li class="fragment">A collection of eleven principles</li>
+<li class="fragment">Not: “an authoring and publishing system”</li>
+<li class="fragment">Not: a collection of conversions to various output formats</li>
+<li class="fragment">Maybe: includes a pre-processor and a library of XSL utilities</li>
+<li class="fragment">Not: just mathematics and computer science</li>
+<li class="fragment">Definitely: target STEM for now.  But why not wider use?</li>
+<li class="fragment">Not: just undergraduate textbooks</li>
+<li class="fragment">Definitely: monographs, research articles, slides</li>
+<li class="fragment">Never has been: an LMS, nor a hosting service</li>
+<li class="fragment">A modern replacement for <span class="latex-logo">L<span class="A">a</span>T<span class="E">e</span>X</span>
+</li>
+<li class="fragment">A commitment to creating accessible materials</li>
+<li class="fragment">A community of instructors, authors, and publishers</li>
+</ul>
+</div></section><section><h3>Status Report</h3>
+<div align="left"> <p>The language:</p> <ul class="disc">
+<li>Opinion: PreTeXt, as a language, is fairly mature.  Version 0.95?</li>
+<li>Needs third (and final!) markup for bibliographies</li>
+<li>Elements are expensive, attributes are cheap</li>
+<li>New disciplines will need new elements (chemistry: <code class="code-inline tex2jax_ignore">&lt;laboratory&gt;</code>, <code class="code-inline tex2jax_ignore">&lt;molecule&gt;</code>)</li>
+</ul> <p>The software development project:</p> <ul class="disc">
+<li>Runestone is a huge LEAP forward, providing valuable resources for students, instructors, authors, and researchers</li>
+<li>Lots of opportunities for refactoring and code clean-up</li>
+<li>Push lots of logic and processing to the pre-processor and common templates</li>
+<li>Sustainable: modular, clean, well-documented code base</li>
+</ul>
+</div></section><section><h3>Support and Needs</h3>
+<div align="left"> <p>PreTeXt can evolve with almost no money.</p> <p>But it is likely to evolve faster and better with some funding.</p> <ul class="disc">
+<li>Cost: developer’s time (which we expect as a volunteer activity)</li>
+<li>Cost: annual development-only workshop (ala PDX heat wave)</li>
+<li>Cost: stipends (honoraria almost) for developer projects (e.g. CLI)</li>
+<li>Cost: schema browser software</li>
+<li>Indirect Cost: developers’ hardware</li>
+<li>Free: GitHub, Google Groups, Zoom, Python, development tools</li>
+<li>Funding: grants from NSF, National Federation of the Blind, Open Oregon, etc.</li>
+<li>Support: AIM provides website, workshops, David Farmer</li>
+</ul>
+</div></section><section><h3>Conversions</h3>
+<div align="left"> <ul class="disc">
+<li>HTML: lots of interest and expertise.  Three hosts: open web, Runestone, React</li>
+<li>PDF/<span class="latex-logo">L<span class="A">a</span>T<span class="E">e</span>X</span>: mostly RAB with some help.  XSL-FO (Formatting Objects) would be a non-LaTeX approach</li>
+<li>EPUB: mostly RAB, but just a variant of base HTML.  Mitch K leads Kindle project</li>
+<li>Jupyter: needs some love.  A new design approach from braille could work wonders</li>
+<li>Slides: sporadic development for HTML. Beamer output is unworkable now</li>
+<li>Braille:  RAB just completed a total re-write and improvements will be simpler and faster</li>
+<li>Tactile graphics: David Austin, Alexei Kolesnikov, Volker Sorge are on it</li>
+</ul>
+</div></section><section><h3>The Future</h3>
+<div align="left"> <ul class="disc">
+<li>Work on the language, the code, and the conversions will continue</li>
+<li>Feature complete, other than the needs of new disciplines (?)</li>
+<li>New elements introduced only with cause (e.g. Runestone exercises, AIM Open Problems)</li>
+<li>Without much money, a legal entity seems unnecessary now</li>
+<li>Discussion: copyrights, licensing, “intellectual property”, both short-term and long-term</li>
+<li>Discussion: how to attract, train, and support volunteer developers?</li>
+<li>Which projects to support? (Witness recent four-year push to support Runestone)</li>
+</ul>
+</div></section><section><h3>Conclusion</h3>
+<div align="left"> <p>Links<ul class="disc">
+<li><a class="external" href="https://pretextbook.org" target="_blank"><code class="code-inline tex2jax_ignore">pretextbook.org</code></a></li>
+<li><a class="external" href="https://runestone.academy" target="_blank"><code class="code-inline tex2jax_ignore">runestone.academy</code></a></li>
+<li><a class="external" href="http://buzzard.ups.edu/talks.html" target="_blank"><code class="code-inline tex2jax_ignore">buzzard.ups.edu/talks.html</code></a></li>
+<li>Twitter: <a class="external" href="https://twitter.com/PreTeXtBook" target="_blank"><code class="code-inline tex2jax_ignore">@PreTeXtBook</code></a>, <a class="external" href="https://twitter.com/hashtag/PreTeXtGang?src=hash" target="_blank"><code class="code-inline tex2jax_ignore">#PreTeXtGang</code></a>
+</li>
+<li>Mastodon: <a class="external" href="https://fosstodon.org/@PreTeXt" target="_blank"><code class="code-inline tex2jax_ignore">@PreTeXt@fosstodon.org</code></a>
+</li>
+</ul></p> <p>Acknowledgements<ul class="disc">
+<li>PreTeXt and Runestone developers, contributors, and authors</li>
+<li>American Action Fund (National Federation of the Blind)</li>
+<li>American Institute of Mathematics</li>
+<li>Partial support for this work was provided by the National Science Foundation’s Improving Undergraduate STEM Education (IUSE) program under Award Nos. 1022574, 1626455, 1821706. And the Pathways to Enable Open-Source Ecosystems (POSE) program under Award No. 2230153. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</li>
+</ul></p>
+</div></section>
+</div>
+</div></body>
+<script>
+Reveal.initialize({
+  controls: true,
+  controlsTutorial: false,
+  controlsLayout: 'bottom-right',
+  controlsBackArrows: 'faded',
+  navigationMode: 'linear',
+  progress: false,
+  center: false,
+  hash: true,
+  transition: 'fade',
+  width: "100%",
+  height: "100%",
+  margin: "0.025",
+  math: {
+    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+    config: 'TeX-AMS_HTML-full',
+    // other options are passed into MathJax.Hub.Config()
+    tex2jax: {
+      inlineMath:  [['\\(','\\)']],
+      displayMath: [],
+    }
+  },
+  plugins: [ RevealMath ]
+});
+</script>
+</html>

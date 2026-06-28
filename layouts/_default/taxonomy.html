@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article role="article">
+  <div class="section">
+    <h1>Categories</h1>
+    <ul>
+      {{- range $name, $taxonomy := .Site.Taxonomies.categories }}
+      <li><a href="{{ $taxonomy.Page.RelPermalink }}">{{ $taxonomy.Page.Title }}</a> ({{ $taxonomy.Count }})</li>
+      {{- end }}
+    </ul>
+  </div>
+</article>
+{{ end }}

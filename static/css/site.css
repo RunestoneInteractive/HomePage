@@ -1,0 +1,27 @@
+/* Supplemental styles for the Hugo port (archive lists, search, admonitions). */
+
+ul.archive { list-style: none; padding-left: 0; }
+ul.archive ul { list-style: none; padding-left: 20px; }
+ul.archive li { line-height: 1.6em; }
+ul.archive span.timestamp { color: #017ff7; font-style: italic; }
+
+#results ul.archive { margin-top: 10px; }
+
+#searchbox form { display: flex; gap: 6px; }
+#searchbox input[type="text"] { flex: 1; padding: 3px 6px; }
+
+/* pandoc renders RST admonitions as <div class="admonition"> / <div class="attention"> */
+div.admonition {
+    background-color: #e8edf2;
+    border-left: 4px solid #074e78;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 16px 0;
+}
+div.admonition > p:first-child { font-weight: bold; margin-top: 0; }
+div.attention { background-color: aliceblue; border-radius: 10px; padding: 10px 16px; margin: 16px 0; }
+div.attention div.title { font-weight: bold; }
+
+/* center images that used the RST :align: center option */
+img.align-center { display: block; margin: 0 auto; }
+figure img, article img { max-width: 100%; height: auto; }
