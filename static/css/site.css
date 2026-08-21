@@ -25,3 +25,8 @@ div.attention div.title { font-weight: bold; }
 /* center images that used the RST :align: center option */
 img.align-center { display: block; margin: 0 auto; }
 figure img, article img { max-width: 100%; height: auto; }
+
+.supporter-display p a {
+    display: flex;
+    gap: 10px;
+}
