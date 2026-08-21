@@ -100,15 +100,15 @@ footer { padding: 5px 20px; }
 /* Palette */body { background-color: #e8edf2; }
 
 header { background-color: #074e78; }
-header a, header a:visited, header a:hover, headera:active { color: #017ff7; text-decoration: none; }
-header h2 { color: #017ff7; }
+header a, header a:visited, header a:hover, header a:active { #e8edf2;  text-decoration: none; }
+header h2 { color: #0668a1; }
 
 nav li a, nav li a:visited, footer { color: #e8edf2; text-decoration: none; }
-nav li a:hover { color: #17465e; text-decoration: none; }
-footer a, footer a:visited, footer a:hover { color: #17465e; }
+nav li a:hover { color: #e8edf2; text-decoration: underline; }
 
-a, a:visited { color: #0b7dc0; text-decoration: none; }
-a:hover { color: #0b7dc0; text-decoration: underline; }
+
+a, a:visited { color: #0668a1; text-decoration: none; }
+a:hover { color: #0668a1; text-decoration: underline; }
 a.footnote-reference { vertical-align: super; }
 div.section h1 a { color: #0c0501; text-decoration: none; }
 .docutils.literal { background-color: #e6edf2; }
@@ -116,7 +116,7 @@ div.section h1 a { color: #0c0501; text-decoration: none; }
 div.main { background-color: #e6edf2; }
 article { background: #f8fafb url('paper.png') repeat; }
 
-div.postmeta { color: #017ff7; }
+div.postmeta { color: #0668a1; }
 div.post_separator { border-bottom: 1px dotted #e8edf2; }
 
 /* Effects */
@@ -134,7 +134,7 @@ aside.sidebar { border-top: 1px solid #cfd5da; }
     header { background: #e7edf2; }
 
     nav, footer {
-        background: #1d81ef;
+        background: #0668a1;
     /*    background: -moz-linear-gradient(top, #354550 0%, #021520 50%, #02121d 51%, #011019 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#354550), color-stop(50%,#021520), color-stop(51%,#02121d), color-stop(100%,#011019));
         background: -webkit-linear-gradient(top, #354550 0%,#021520 50%,#02121d 51%,#011019 100%);
@@ -143,8 +143,12 @@ aside.sidebar { border-top: 1px solid #cfd5da; }
         background: linear-gradient(top, #354550 0%,#021520 50%,#02121d 51%,#011019 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#354550', endColorstr='#011019',GradientType=0 ); */
     }
+    footer a {
+        color: #e8edf2;
+        text-decoration: underline;
+    }
 
-    footer, nav li { text-shadow: 0 2px 3px #021724; }
+    /* footer, nav li { text-shadow: 0 2px 3px #021724; } */
 }
 
 @media only screen and (min-width: 768px) {
